@@ -1,0 +1,40 @@
+INFO:     Started server process [20636]
+INFO:     Waiting for application startup.
+2026-10-19 13:10:10.788417: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-19 13:10:12.549939: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-19 13:10:18.690217: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:calamansi:Model loaded: mobilenetv2-20261015-0651
+INFO:calamansi:Storage backend: supabase
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?select=id&limit=1 "HTTP/1.1 206 Partial Content"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/security_audit_logs?select=created_at&event_status=in.%28failure%29&event_type=in.%28login%29&created_at=gte.2026-10-19T04%3A56%3A30.192765%2B00%3A00&order=created_at.desc&limit=200&email_hash=eq.0c4015035fd5923526d64669743c9cfd91825929 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/security_audit_logs?select=created_at&event_status=in.%28failure%29&event_type=in.%28login%29&created_at=gte.2026-10-19T04%3A56%3A32.952297%2B00%3A00&order=created_at.desc&limit=200&ip_hash=eq.2add5ef0ca79a7845ad85e3777e132e5449efca9 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://vtpmvbkzbehwmcidayjt.supabase.co/auth/v1/token?grant_type=password "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/profiles?id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&select=%2A "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/security_audit_logs "HTTP/1.1 201 Created"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/auth/v1/user "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/auth/v1/user "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/auth/v1/user "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/auth/v1/user "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/profiles?id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&select=%2A "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/profiles?id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&select=%2A "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/profiles?id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&select=%2A "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?select=created_at%2Cpredicted_class%2Cconfidence&user_id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&created_at=gte.2026-10-12T16%3A00%3A00%2B00%3A00&created_at=lt.2026-10-19T16%3A00%3A00%2B00%3A00&order=created_at.asc&offset=0&limit=1000 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?select=%2A&user_id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&order=created_at.desc&offset=0&limit=1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?select=created_at%2Cpredicted_class%2Cconfidence&user_id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&created_at=gte.2026-10-05T16%3A00%3A00%2B00%3A00&created_at=lt.2026-10-19T16%3A00%3A00%2B00%3A00&order=created_at.asc&offset=0&limit=1000 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?select=id&user_id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&predicted_class=eq.Damaged&limit=1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?select=id&user_id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&predicted_class=eq.Healthy&limit=1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/profiles?id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&select=%2A "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?select=id&limit=1 "HTTP/1.1 206 Partial Content"
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000021E4EA9BA60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000021E4EA9B420> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:calamansi:Rejected upload 'lemon_leaf_user_upload.jpg': does not look like a calamansi leaf (gate score 0.001, novelty 0.54; 17 regions checked)
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?select=%2A&user_id=eq.cfade7d2-ded6-4a26-b484-e431eb3a747d&order=created_at.desc&offset=0&limit=5 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?select=id&limit=1 "HTTP/1.1 206 Partial Content"
+INFO:httpx:HTTP Request: POST https://vtpmvbkzbehwmcidayjt.supabase.co/storage/v1/object/leaf-images/2026/10/4a0758d8-d0ce-4212-8867-477cf24d62ac.jpg "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?on_conflict=id "HTTP/1.1 201 Created"
+INFO:httpx:HTTP Request: POST https://vtpmvbkzbehwmcidayjt.supabase.co/storage/v1/object/sign/leaf-images "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://vtpmvbkzbehwmcidayjt.supabase.co/rest/v1/detection_logs?select=id&limit=1 "HTTP/1.1 206 Partial Content"
+INFO:calamansi:Rejected upload 'blurred_calamansi.jpg': too blurry to verify that it is a calamansi leaf (gate score 0.000, novelty 0.00; 1 regions checked)

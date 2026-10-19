@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-10-18T17:26:10.488792+00:00",
+  "thresholds": {
+    "linear": 0.0931541696190834,
+    "novelty": 0.6270126104354858,
+    "cnn": 0.06829345226287842
+  },
+  "groups": {
+    "regression_lemon_upload": {
+      "n": 1,
+      "expected": "reject",
+      "accepted": 1.0,
+      "correct": 0.0
+    },
+    "calamansi_damaged": {
+      "n": 70,
+      "expected": "accept",
+      "accepted": 1.0,
+      "correct": 0.9714
+    },
+    "calamansi_healthy": {
+      "n": 60,
+      "expected": "accept",
+      "accepted": 1.0,
+      "correct": 0.9667
+    },
+    "calamansi_blurred": {
+      "n": 40,
+      "expected": "accept",
+      "accepted": 1.0,
+      "correct": 0.875
+    },
+    "lemon_leaves": {
+      "n": 124,
+      "expected": "reject",
+      "accepted": 0.0323,
+      "correct": 0.9677
+    },
+    "lemon_leaves_blurred": {
+      "n": 40,
+      "expected": "reject",
+      "accepted": 0.775,
+      "correct": 0.225
+    },
+    "orange_leaves_hlb": {
+      "n": 66,
+      "expected": "reject",
+      "accepted": 0.0758,
+      "correct": 0.9242
+    },
+    "orange_leaves_hlb_blurred": {
+      "n": 40,
+      "expected": "reject",
+      "accepted": 0.625,
+      "correct": 0.375
+    },
+    "inat_calamansi_no_clear_leaves": {
+      "n": 160,
+      "expected": "either",
+      "accepted": 0.1625,
+      "correct": 1.0
+    },
+    "inat_calamansi_leaves_visible": {
+      "n": 140,
+      "expected": "accept",
+      "accepted": 0.4786,
+      "correct": 0.4786
+    },
+    "inat_key_lime": {
+      "n": 300,
+      "expected": "reject",
+      "accepted": 0.3467,
+      "correct": 0.6533
+    },
+    "inat_lemon": {
+      "n": 300,
+      "expected": "reject",
+      "accepted": 0.27,
+      "correct": 0.73
+    },
+    "inat_makrut_lime": {
+      "n": 300,
+      "expected": "reject",
+      "accepted": 0.38,
+      "correct": 0.62
+    },
+    "inat_orange": {
+      "n": 300,
+      "expected": "reject",
+      "accepted": 0.2033,
+      "correct": 0.7967
+    },
+    "inat_persian_lime": {
+      "n": 246,
+      "expected": "reject",
+      "accepted": 0.2642,
+      "correct": 0.7358
+    },
+    "realworld_fruit_only": {
+      "n": 2,
+      "expected": "reject",
+      "accepted": 0.0,
+      "correct": 1.0
+    },
+    "realworld_leaf_healthy": {
+      "n": 1,
+      "expected": "accept",
+      "accepted": 1.0,
+      "correct": 1.0
+    },
+    "realworld_not_calamansi": {
+      "n": 1,
+      "expected": "reject",
+      "accepted": 0.0,
+      "correct": 1.0
+    },
+    "realworld_plant_unlabeled": {
+      "n": 2,
+      "expected": "accept",
+      "accepted": 1.0,
+      "correct": 1.0
+    }
+  }
+}

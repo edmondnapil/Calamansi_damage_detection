@@ -1,0 +1,99 @@
+{
+  "model_version": "mobilenetv2-20261015-0651",
+  "summary": {
+    "leaf_healthy": {
+      "correct": 1,
+      "n": 1,
+      "expected": "accept as Healthy"
+    },
+    "plant_unlabeled": {
+      "correct": 2,
+      "n": 2,
+      "expected": "accept"
+    },
+    "fruit_only": {
+      "correct": 2,
+      "n": 2,
+      "expected": "reject"
+    },
+    "not_calamansi": {
+      "correct": 1,
+      "n": 1,
+      "expected": "reject"
+    }
+  },
+  "results": [
+    {
+      "category": "leaf_healthy",
+      "file": "branch_crop_single_leaf.jpg",
+      "outcome": "accept",
+      "class": "Healthy",
+      "confidence": 0.9671,
+      "analysis": "whole_photo",
+      "regions_used": 1,
+      "regions_checked": 1,
+      "gate_reason": null,
+      "correct": true
+    },
+    {
+      "category": "plant_unlabeled",
+      "file": "branch_with_fruits_stock_photo.jpg",
+      "outcome": "accept",
+      "class": "Healthy",
+      "confidence": 0.9959,
+      "analysis": "leaf_regions",
+      "regions_used": 9,
+      "regions_checked": 15,
+      "gate_reason": null,
+      "correct": true
+    },
+    {
+      "category": "plant_unlabeled",
+      "file": "calamansi_foliage_assets.jpg",
+      "outcome": "accept",
+      "class": "Healthy",
+      "confidence": 0.7715,
+      "analysis": "whole_photo",
+      "regions_used": 1,
+      "regions_checked": 1,
+      "gate_reason": null,
+      "correct": true
+    },
+    {
+      "category": "fruit_only",
+      "file": "branch_crop_fruits.jpg",
+      "outcome": "reject",
+      "class": null,
+      "confidence": null,
+      "analysis": "whole_photo",
+      "regions_used": 1,
+      "regions_checked": 1,
+      "gate_reason": "too different from every calamansi leaf the model was trained on",
+      "correct": true
+    },
+    {
+      "category": "fruit_only",
+      "file": "branch_crop_two_fruits.jpg",
+      "outcome": "reject",
+      "class": null,
+      "confidence": null,
+      "analysis": "whole_photo",
+      "regions_used": 1,
+      "regions_checked": 1,
+      "gate_reason": "too different from every calamansi leaf the model was trained on",
+      "correct": true
+    },
+    {
+      "category": "not_calamansi",
+      "file": "app_screenshot.jpg",
+      "outcome": "reject",
+      "class": null,
+      "confidence": null,
+      "analysis": "whole_photo",
+      "regions_used": 0,
+      "regions_checked": 7,
+      "gate_reason": "does not look like a calamansi leaf",
+      "correct": true
+    }
+  ]
+}

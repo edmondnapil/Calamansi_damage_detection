@@ -1,0 +1,47 @@
+{
+  "other_citrus_leaves": {
+    "n": 40,
+    "rejected": 1.0,
+    "accepted_via_regions": 0
+  },
+  "citrus_fruits": {
+    "n": 19,
+    "rejected": 1.0,
+    "accepted_via_regions": 0
+  },
+  "other_citrus_leaves_plantvillage": {
+    "n": 40,
+    "rejected": 1.0,
+    "accepted_via_regions": 0
+  },
+  "other_plant_leaves": {
+    "n": 40,
+    "rejected": 0.975,
+    "accepted_via_regions": 0
+  },
+  "flowers": {
+    "n": 40,
+    "rejected": 0.925,
+    "accepted_via_regions": 0
+  },
+  "everyday_objects": {
+    "n": 40,
+    "rejected": 0.975,
+    "accepted_via_regions": 0
+  },
+  "caltech_objects": {
+    "n": 40,
+    "rejected": 1.0,
+    "accepted_via_regions": 0
+  },
+  "people": {
+    "n": 40,
+    "rejected": 1.0,
+    "accepted_via_regions": 0
+  },
+  "calamansi_test_photos": {
+    "n": 130,
+    "accepted": 1.0,
+    "accepted_and_correct": 0.9692
+  }
+}

@@ -1,0 +1,2520 @@
+{
+  "generated_at": "2026-10-14T14:57:44.446008+00:00",
+  "dataset_dir": "C:\\xampp\\htdocs\\Web-Based Calamansi Leaf Damage Detection Using Image Classification",
+  "folder_layout": {
+    "test/Damaged": 52,
+    "test/Healthy": 59,
+    "train/Damaged": 370,
+    "train/Healthy": 500,
+    "val/Damaged": 47,
+    "val/Healthy": 60
+  },
+  "files_found": 1238,
+  "excluded_non_calamansi": {
+    "count": 150,
+    "list": "dataset_exclusions.csv",
+    "reason": "pixel-identical copies of the public Citrus Leaves dataset (Mendeley 3f83gxmv57)"
+  },
+  "readable_images": 1088,
+  "problem_files": [],
+  "roboflow_aug_copies": {
+    "Healthy": 217
+  },
+  "unique_source_photos": {
+    "Damaged": 469,
+    "Healthy": 402
+  },
+  "imbalance_ratio": 1.17,
+  "exact_duplicate_hashes": 0,
+  "near_duplicate_pairs": [
+    {
+      "a": "test\\damaged\\IMG20220404221524_jpg.rf.94c0f003b45c4170628bee7093e9c7bd.jpg",
+      "b": "test\\damaged\\IMG20220404221539_jpg.rf.c522a8b27085ba536b8eebcdce318990.jpg",
+      "similarity": 0.9415
+    },
+    {
+      "a": "test\\damaged\\IMG20220404223752_jpg.rf.5c491f5dddbaa0cf538cf0db7cbce05d.jpg",
+      "b": "train\\damaged\\IMG20220404223806_jpg.rf.60c2dda126aa7523c8b056f24dc94395.jpg",
+      "similarity": 0.9339
+    },
+    {
+      "a": "test\\damaged\\IMG20220404223752_jpg.rf.5c491f5dddbaa0cf538cf0db7cbce05d.jpg",
+      "b": "train\\damaged\\IMG20220404223812_jpg.rf.773cb15bc2a95d1fc6738b845e4684b3.jpg",
+      "similarity": 0.9445
+    },
+    {
+      "a": "test\\damaged\\IMG_20220404_165811_jpg.rf.43c308037cfb4ef4da7a037577b10986.jpg",
+      "b": "valid\\damaged\\IMG_20220404_165754_jpg.rf.ce9bad8909f9f9dc8aa275f394f7d76a.jpg",
+      "similarity": 0.9893
+    },
+    {
+      "a": "test\\damaged\\IMG_20220404_171421_jpg.rf.2f370cc56bdf8c5788fe5ffd34ce6aad.jpg",
+      "b": "valid\\damaged\\IMG_20220404_171357_jpg.rf.69835c243bc9004b49a829bced30aee3.jpg",
+      "similarity": 0.9554
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_090709_jpg.rf.8e1c3603ad6853b07bca5ae2d1890a17.jpg",
+      "b": "train\\damaged\\IMG_20220405_090701_jpg.rf.6edf8d295097e4e8cf42937645e02736.jpg",
+      "similarity": 0.9853
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_090709_jpg.rf.8e1c3603ad6853b07bca5ae2d1890a17.jpg",
+      "b": "train\\damaged\\IMG_20220405_090707_jpg.rf.d3739c7fbe30e6027d43cd3208d3452a.jpg",
+      "similarity": 0.9983
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_091050_jpg.rf.9818b16bcb8e319329c85304f653cc6a.jpg",
+      "b": "train\\damaged\\IMG_20220405_091047_jpg.rf.db632aeca8be7298afb047b839348234.jpg",
+      "similarity": 0.9999
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_091240_jpg.rf.abe192728bc08c45adfacade4ba3b525.jpg",
+      "b": "train\\damaged\\IMG_20220405_091226_jpg.rf.7befee5fdc2e5d9af4bdad1c7230e301.jpg",
+      "similarity": 0.9894
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_091456_jpg.rf.92838f8758ee720b24dca624eefa9a80.jpg",
+      "b": "train\\damaged\\IMG_20220405_091515_jpg.rf.e569b810c1a4866c03fbd7027b8547df.jpg",
+      "similarity": 0.9883
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_092058_jpg.rf.b5316fa6d621c1ea209c6dd53ebc46cf.jpg",
+      "b": "train\\damaged\\IMG_20220405_092031_jpg.rf.a72f39aa1395fc111b95e5973ee166b5.jpg",
+      "similarity": 0.9884
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_092058_jpg.rf.b5316fa6d621c1ea209c6dd53ebc46cf.jpg",
+      "b": "train\\damaged\\IMG_20220405_092054_jpg.rf.930b73070d0134c3ff23cdaf4dac9b42.jpg",
+      "similarity": 0.9999
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_092058_jpg.rf.b5316fa6d621c1ea209c6dd53ebc46cf.jpg",
+      "b": "train\\damaged\\IMG_20220405_092122_jpg.rf.a047d5b3660e3ccf87fb591606ab8adc.jpg",
+      "similarity": 0.9925
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_092315_jpg.rf.eb441e400145b823d447098042f572ad.jpg",
+      "b": "train\\damaged\\IMG_20220405_092305_jpg.rf.d282f9900a33dec34590ca6cdbe77bb3.jpg",
+      "similarity": 0.9878
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_092315_jpg.rf.eb441e400145b823d447098042f572ad.jpg",
+      "b": "train\\damaged\\IMG_20220405_092340_jpg.rf.10cf0fa573abec85ad726d8df1e3ffb2.jpg",
+      "similarity": 0.9756
+    },
+    {
+      "a": "test\\damaged\\IMG_20220405_092315_jpg.rf.eb441e400145b823d447098042f572ad.jpg",
+      "b": "valid\\damaged\\IMG_20220405_092321_jpg.rf.1c399caae43633a747e926c2406494ce.jpg",
+      "similarity": 0.9653
+    },
+    {
+      "a": "test\\healthy\\IMG20220404201520_jpg.rf.93d927b6cd4742e971f5fa1d94593a0d.jpg",
+      "b": "train\\healthy\\IMG20220404201510_jpg.rf.81745695c258df263c7ace9bca1a01e8.jpg",
+      "similarity": 0.9583
+    },
+    {
+      "a": "test\\healthy\\IMG20220404201520_jpg.rf.93d927b6cd4742e971f5fa1d94593a0d.jpg",
+      "b": "train\\healthy\\IMG20220404201544_jpg.rf.75b1271fc79f4cdaf245e430bc31fd92.jpg",
+      "similarity": 0.9514
+    },
+    {
+      "a": "test\\healthy\\IMG20220404201612_jpg.rf.82ac33931d539c4ed902dd1420ada76b.jpg",
+      "b": "train\\healthy\\IMG20220404201558_jpg.rf.2ef254e95d0f8ca026e3c9ff391c1057.jpg",
+      "similarity": 0.9806
+    },
+    {
+      "a": "test\\healthy\\IMG20220404201612_jpg.rf.82ac33931d539c4ed902dd1420ada76b.jpg",
+      "b": "train\\healthy\\IMG20220404201616_jpg.rf.82e9e88d42a29983c78000a7e68ff2b0.jpg",
+      "similarity": 0.9932
+    },
+    {
+      "a": "test\\healthy\\IMG20220404201612_jpg.rf.82ac33931d539c4ed902dd1420ada76b.jpg",
+      "b": "train\\healthy\\IMG20220404201620_jpg.rf.ed9a966d618473277e455e8db2fc63ab.jpg",
+      "similarity": 0.9798
+    },
+    {
+      "a": "test\\healthy\\IMG20220404201612_jpg.rf.82ac33931d539c4ed902dd1420ada76b.jpg",
+      "b": "valid\\healthy\\IMG20220404201626_jpg.rf.bb8287835042f3dd3b6faee883de9c57.jpg",
+      "similarity": 0.9801
+    },
+    {
+      "a": "test\\healthy\\IMG20220404201706_jpg.rf.f29d043dbd792022e6be9a45ce92a88d.jpg",
+      "b": "train\\healthy\\IMG20220404201704_jpg.rf.c2a33bdbb24b858c94404d7c49e0ac38.jpg",
+      "similarity": 0.951
+    },
+    {
+      "a": "test\\healthy\\IMG20220404201706_jpg.rf.f29d043dbd792022e6be9a45ce92a88d.jpg",
+      "b": "train\\healthy\\IMG20220404201724_jpg.rf.5d1c3f669f8eaa0543a1b162cd5ac7e1.jpg",
+      "similarity": 0.9335
+    },
+    {
+      "a": "test\\healthy\\IMG20220404201706_jpg.rf.f29d043dbd792022e6be9a45ce92a88d.jpg",
+      "b": "train\\healthy\\IMG20220404201727_jpg.rf.ff5323224ea24f2db61c8b86fd1ee355.jpg",
+      "similarity": 0.9621
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202010_jpg.rf.2cdffa8efce1c8c87633dddb849e5691.jpg",
+      "b": "train\\healthy\\IMG20220404201953_jpg.rf.2f2227826a927d587f6a2a44c56e008f.jpg",
+      "similarity": 0.9769
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202010_jpg.rf.2cdffa8efce1c8c87633dddb849e5691.jpg",
+      "b": "train\\healthy\\IMG20220404202002_jpg.rf.391557004c0ecb4f1d7c7b0db4902995.jpg",
+      "similarity": 0.9699
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202010_jpg.rf.2cdffa8efce1c8c87633dddb849e5691.jpg",
+      "b": "train\\healthy\\IMG20220404202005_jpg.rf.3e005a0499274d6aeb0d23b448a26fce.jpg",
+      "similarity": 0.9445
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202010_jpg.rf.2cdffa8efce1c8c87633dddb849e5691.jpg",
+      "b": "train\\healthy\\IMG20220404202016_jpg.rf.20554b6124d69e504563b20aa41122e7.jpg",
+      "similarity": 0.9702
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202118_jpg.rf.27ae4da1d1451b41788f814ca69b84bd.jpg",
+      "b": "train\\healthy\\IMG20220404202125_jpg.rf.948947b8990d37eb54bfaefd648783e0.jpg",
+      "similarity": 0.9377
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202205_jpg.rf.a07a37073e17058095a8c4564e5c6563.jpg",
+      "b": "train\\healthy\\IMG20220404202142_jpg.rf.cda357e3e6821e3f951336e3a9470269.jpg",
+      "similarity": 0.932
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202305_jpg.rf.8d9cce4c56b2fa2a3226f552f8f93754.jpg",
+      "b": "train\\healthy\\IMG20220404202309_jpg.rf.055bbf38c34de0e70d76778eb50de598.jpg",
+      "similarity": 0.9559
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202305_jpg.rf.8d9cce4c56b2fa2a3226f552f8f93754.jpg",
+      "b": "valid\\healthy\\IMG20220404202331_jpg.rf.aabd963b73dc1501c369b6778b4d4fa4.jpg",
+      "similarity": 0.9465
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202329_jpg.rf.24ea5db7f566baf4fd6a08b85c546cb7.jpg",
+      "b": "valid\\healthy\\IMG20220404202340_jpg.rf.f1257701fa7aec0e1fbd17391262a156.jpg",
+      "similarity": 0.9723
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202413_jpg.rf.05a96c4ddfe37d85692226bdced02cde.jpg",
+      "b": "test\\healthy\\IMG20220404202431_jpg.rf.b4ccd591d1d4574be50ea82bd26143e2.jpg",
+      "similarity": 0.9671
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202413_jpg.rf.05a96c4ddfe37d85692226bdced02cde.jpg",
+      "b": "train\\healthy\\IMG20220404202353_jpg.rf.34b0145e116925777590da60caf23978.jpg",
+      "similarity": 0.9672
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202413_jpg.rf.05a96c4ddfe37d85692226bdced02cde.jpg",
+      "b": "train\\healthy\\IMG20220404202408_jpg.rf.497f5738c44ba06b5ce045bf9915e179.jpg",
+      "similarity": 0.9586
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202413_jpg.rf.05a96c4ddfe37d85692226bdced02cde.jpg",
+      "b": "train\\healthy\\IMG20220404202426_jpg.rf.a72a4a47d23dd0ea08496af404aeeb2b.jpg",
+      "similarity": 0.97
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202431_jpg.rf.b4ccd591d1d4574be50ea82bd26143e2.jpg",
+      "b": "train\\healthy\\IMG20220404202408_jpg.rf.497f5738c44ba06b5ce045bf9915e179.jpg",
+      "similarity": 0.967
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202431_jpg.rf.b4ccd591d1d4574be50ea82bd26143e2.jpg",
+      "b": "train\\healthy\\IMG20220404202426_jpg.rf.a72a4a47d23dd0ea08496af404aeeb2b.jpg",
+      "similarity": 0.9827
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202431_jpg.rf.b4ccd591d1d4574be50ea82bd26143e2.jpg",
+      "b": "train\\healthy\\IMG20220404202501_jpg.rf.38d0530b7104ab59dd68a3733b66a7fc.jpg",
+      "similarity": 0.9692
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202600_jpg.rf.fa346b1130c8e2fb67e03da343a7769d.jpg",
+      "b": "train\\healthy\\IMG20220404202534_jpg.rf.fef913415825d57a8390ba7fddd4f906.jpg",
+      "similarity": 0.9531
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202600_jpg.rf.fa346b1130c8e2fb67e03da343a7769d.jpg",
+      "b": "train\\healthy\\IMG20220404202539_jpg.rf.2db8851301cfc4d91626278a2cc4437f.jpg",
+      "similarity": 0.9612
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202600_jpg.rf.fa346b1130c8e2fb67e03da343a7769d.jpg",
+      "b": "train\\healthy\\IMG20220404202605_jpg.rf.438c28df499af503da763a230cb2e9e8.jpg",
+      "similarity": 0.9592
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202600_jpg.rf.fa346b1130c8e2fb67e03da343a7769d.jpg",
+      "b": "train\\healthy\\IMG20220404202605_jpg.rf.438c28df499af503da763a230cb2e9e8_aug.jpg",
+      "similarity": 0.975
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202712_jpg.rf.660a23ba7ead1ba8638538ebb1f6f86c.jpg",
+      "b": "valid\\healthy\\IMG20220404202727_jpg.rf.d4c8347aa743ae6a80ffa69fcf454c1e.jpg",
+      "similarity": 0.9572
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202817_jpg.rf.65d7fa336fca7557605c648daf8da016.jpg",
+      "b": "train\\healthy\\IMG20220404202808_jpg.rf.d2b7b92ea7e6723ab93a6999e3b3c3da.jpg",
+      "similarity": 0.991
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202817_jpg.rf.65d7fa336fca7557605c648daf8da016.jpg",
+      "b": "train\\healthy\\IMG20220404202823_jpg.rf.4a99b64b016d67a186acce3f71ee7401.jpg",
+      "similarity": 0.9759
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202832_jpg.rf.492031069159cec14a3ff35204f9911b.jpg",
+      "b": "train\\healthy\\IMG20220404202810_jpg.rf.dd79bfbd0fbacd78f755f6f2e4058995.jpg",
+      "similarity": 0.9487
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202832_jpg.rf.492031069159cec14a3ff35204f9911b.jpg",
+      "b": "train\\healthy\\IMG20220404202848_jpg.rf.e68a02bb4d6183c94f9561123b30fd5b.jpg",
+      "similarity": 0.9321
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202852_jpg.rf.5747b98bf9b31482b141fe37fc575ba8.jpg",
+      "b": "train\\healthy\\IMG20220404202823_jpg.rf.4a99b64b016d67a186acce3f71ee7401.jpg",
+      "similarity": 0.9612
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202852_jpg.rf.5747b98bf9b31482b141fe37fc575ba8.jpg",
+      "b": "train\\healthy\\IMG20220404202855_jpg.rf.b0807d9b4c66c1d3dc78d39680ec1444.jpg",
+      "similarity": 0.962
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202852_jpg.rf.5747b98bf9b31482b141fe37fc575ba8.jpg",
+      "b": "train\\healthy\\IMG20220404202902_jpg.rf.0b40b457352f3bb9e263d0dbfadac5d5.jpg",
+      "similarity": 0.9748
+    },
+    {
+      "a": "test\\healthy\\IMG20220404202936_jpg.rf.88d2e20779a4cc805faf4467b53da089.jpg",
+      "b": "train\\healthy\\IMG20220404202941_jpg.rf.9d621b071fce0ff92621ff108bb324df.jpg",
+      "similarity": 0.9586
+    },
+    {
+      "a": "test\\healthy\\IMG20220404203449_jpg.rf.e0a0457a0a0ef5e1a5e5497b4cdbef1b.jpg",
+      "b": "train\\healthy\\IMG20220404203425_jpg.rf.ce1ca231228389b3f44ba9f383936ad5.jpg",
+      "similarity": 0.9691
+    },
+    {
+      "a": "test\\healthy\\IMG20220404203449_jpg.rf.e0a0457a0a0ef5e1a5e5497b4cdbef1b.jpg",
+      "b": "train\\healthy\\IMG20220404203446_jpg.rf.8f75bcc7cbd7650cf4a425c12d3ceb44.jpg",
+      "similarity": 0.9534
+    },
+    {
+      "a": "test\\healthy\\IMG20220404203558_jpg.rf.ef0788a7202c3a25e163c6dad71b8cc0.jpg",
+      "b": "train\\healthy\\IMG20220404203605_jpg.rf.4812bf6173fb867326008a116243b422.jpg",
+      "similarity": 0.9802
+    },
+    {
+      "a": "test\\healthy\\IMG20220404203558_jpg.rf.ef0788a7202c3a25e163c6dad71b8cc0.jpg",
+      "b": "valid\\healthy\\IMG20220404203611_jpg.rf.f5682d8eb63b787b7c056be8fcbee9fa.jpg",
+      "similarity": 0.9342
+    },
+    {
+      "a": "test\\healthy\\IMG20220404203918_jpg.rf.8be9386d4071202b627833fd54b9fa46.jpg",
+      "b": "train\\healthy\\IMG20220404203849_jpg.rf.e270516b6da8fe4cea60218f65c58474.jpg",
+      "similarity": 0.931
+    },
+    {
+      "a": "test\\healthy\\IMG20220404203918_jpg.rf.8be9386d4071202b627833fd54b9fa46.jpg",
+      "b": "train\\healthy\\IMG20220404203912_jpg.rf.93d7b1b00bdbcf9f57ea9daa912a396a.jpg",
+      "similarity": 0.9301
+    },
+    {
+      "a": "test\\healthy\\IMG20220404203918_jpg.rf.8be9386d4071202b627833fd54b9fa46.jpg",
+      "b": "valid\\healthy\\IMG20220404203921_jpg.rf.122cbf540202cc35b4622512ef9c02f5.jpg",
+      "similarity": 0.9589
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204022_jpg.rf.a3e4efc99b14fdf37fea56e947c30971.jpg",
+      "b": "train\\healthy\\IMG20220404204015_jpg.rf.cc91a4c3a389f42d9f92cf838f38f9f4.jpg",
+      "similarity": 0.9599
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204103_jpg.rf.1852954680a4844ff5e688c2da134d61.jpg",
+      "b": "train\\healthy\\IMG20220404204106_jpg.rf.78d99312e18f6c0848bfa35534e08332.jpg",
+      "similarity": 0.9429
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204524_jpg.rf.30fabd359886e598a5860fbbebf2e6c7.jpg",
+      "b": "test\\healthy\\IMG20220404204533_jpg.rf.b0532973c9d77ed9179f23bba8aa7049.jpg",
+      "similarity": 0.982
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204524_jpg.rf.30fabd359886e598a5860fbbebf2e6c7.jpg",
+      "b": "train\\healthy\\IMG20220404204539_jpg.rf.172dbb3625c410a4cd373f220a9d09e9.jpg",
+      "similarity": 0.9501
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204524_jpg.rf.30fabd359886e598a5860fbbebf2e6c7.jpg",
+      "b": "train\\healthy\\IMG20220404204551_jpg.rf.155573e9ee6786fba349d1794b21e55d.jpg",
+      "similarity": 0.9563
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204533_jpg.rf.b0532973c9d77ed9179f23bba8aa7049.jpg",
+      "b": "train\\healthy\\IMG20220404204527_jpg.rf.62555611bfb444a3703d703b39b3f31c.jpg",
+      "similarity": 0.9593
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204533_jpg.rf.b0532973c9d77ed9179f23bba8aa7049.jpg",
+      "b": "train\\healthy\\IMG20220404204539_jpg.rf.172dbb3625c410a4cd373f220a9d09e9.jpg",
+      "similarity": 0.9548
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204533_jpg.rf.b0532973c9d77ed9179f23bba8aa7049.jpg",
+      "b": "train\\healthy\\IMG20220404204551_jpg.rf.155573e9ee6786fba349d1794b21e55d.jpg",
+      "similarity": 0.9796
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204533_jpg.rf.b0532973c9d77ed9179f23bba8aa7049.jpg",
+      "b": "train\\healthy\\IMG20220404204558_jpg.rf.4206df7127682573597017ac3c7ca494.jpg",
+      "similarity": 0.9753
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204705_jpg.rf.cec2a0cf4332322854614e1207eb7f5f.jpg",
+      "b": "train\\healthy\\IMG20220404204708_jpg.rf.31a018bff7b7ad565699eb9040dfc444.jpg",
+      "similarity": 0.9554
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204705_jpg.rf.cec2a0cf4332322854614e1207eb7f5f.jpg",
+      "b": "train\\healthy\\IMG20220404204716_jpg.rf.019bfdcf667c47398b7e2b896d85175f.jpg",
+      "similarity": 0.9452
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204705_jpg.rf.cec2a0cf4332322854614e1207eb7f5f.jpg",
+      "b": "train\\healthy\\IMG20220404204735_jpg.rf.09d009785585db5e3a75e9e8f61e1da9.jpg",
+      "similarity": 0.9481
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204705_jpg.rf.cec2a0cf4332322854614e1207eb7f5f.jpg",
+      "b": "valid\\healthy\\IMG20220404204641_jpg.rf.db1d4b70f28fa4b6e3f6349b9c577288.jpg",
+      "similarity": 0.9364
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204705_jpg.rf.cec2a0cf4332322854614e1207eb7f5f.jpg",
+      "b": "valid\\healthy\\IMG20220404204644_jpg.rf.d302f41e5d6f1b77215aeb4f4dd1c308.jpg",
+      "similarity": 0.9579
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204730_jpg.rf.2d54dd2e5194a8190b6f637cd6324fdf.jpg",
+      "b": "test\\healthy\\IMG20220404204732_jpg.rf.8590e63668e46fa0fb28e8ee93c5142f.jpg",
+      "similarity": 0.9521
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204730_jpg.rf.2d54dd2e5194a8190b6f637cd6324fdf.jpg",
+      "b": "test\\healthy\\IMG20220404204745_jpg.rf.aa599e4d77d3568b8b12d82cd0038bae.jpg",
+      "similarity": 0.9314
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204758_jpg.rf.eb28997070119c0fc21c565ca1950fdf.jpg",
+      "b": "test\\healthy\\IMG20220404204810_jpg.rf.1c6d25c6e68e056bea36befaa94dc1d0.jpg",
+      "similarity": 0.9335
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204944_jpg.rf.2716f338785caff0776e7ee56a34c2c8.jpg",
+      "b": "test\\healthy\\IMG20220404205006_jpg.rf.7ce7efeb869e6964a5268dda2632ede1.jpg",
+      "similarity": 0.9841
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204944_jpg.rf.2716f338785caff0776e7ee56a34c2c8.jpg",
+      "b": "train\\healthy\\IMG20220404204934_jpg.rf.f9e9a1e4fff8eacf2315a05b6f975d89.jpg",
+      "similarity": 0.9865
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204944_jpg.rf.2716f338785caff0776e7ee56a34c2c8.jpg",
+      "b": "train\\healthy\\IMG20220404204948_jpg.rf.a6e357b67dffce6fd118e0d2f9057004.jpg",
+      "similarity": 0.9795
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204944_jpg.rf.2716f338785caff0776e7ee56a34c2c8.jpg",
+      "b": "train\\healthy\\IMG20220404204957_jpg.rf.9934561f480af5c1944e1d5650071566.jpg",
+      "similarity": 0.9824
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204944_jpg.rf.2716f338785caff0776e7ee56a34c2c8.jpg",
+      "b": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039.jpg",
+      "similarity": 0.9683
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204944_jpg.rf.2716f338785caff0776e7ee56a34c2c8.jpg",
+      "b": "train\\healthy\\IMG20220404205004_jpg.rf.4e858bc6fcd21fcccf707639f4c43984.jpg",
+      "similarity": 0.9857
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204944_jpg.rf.2716f338785caff0776e7ee56a34c2c8.jpg",
+      "b": "train\\healthy\\IMG20220404205008_jpg.rf.ae9951b09277d59e8471f3ed3fd88908.jpg",
+      "similarity": 0.9887
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204944_jpg.rf.2716f338785caff0776e7ee56a34c2c8.jpg",
+      "b": "train\\healthy\\IMG20220404205011_jpg.rf.3172f0f9984e62071f51f2820f33c5ab.jpg",
+      "similarity": 0.9837
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204944_jpg.rf.2716f338785caff0776e7ee56a34c2c8.jpg",
+      "b": "train\\healthy\\IMG20220404205014_jpg.rf.22843b81ce77267c57d6bf84ef4321c8.jpg",
+      "similarity": 0.9778
+    },
+    {
+      "a": "test\\healthy\\IMG20220404204944_jpg.rf.2716f338785caff0776e7ee56a34c2c8.jpg",
+      "b": "valid\\healthy\\IMG20220404204930_jpg.rf.8fbf69ad3f12b2c0457cb6bb079bcb3f.jpg",
+      "similarity": 0.9799
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205006_jpg.rf.7ce7efeb869e6964a5268dda2632ede1.jpg",
+      "b": "train\\healthy\\IMG20220404204948_jpg.rf.a6e357b67dffce6fd118e0d2f9057004.jpg",
+      "similarity": 0.985
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205006_jpg.rf.7ce7efeb869e6964a5268dda2632ede1.jpg",
+      "b": "train\\healthy\\IMG20220404204957_jpg.rf.9934561f480af5c1944e1d5650071566.jpg",
+      "similarity": 0.9823
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205006_jpg.rf.7ce7efeb869e6964a5268dda2632ede1.jpg",
+      "b": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039.jpg",
+      "similarity": 0.9522
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205006_jpg.rf.7ce7efeb869e6964a5268dda2632ede1.jpg",
+      "b": "train\\healthy\\IMG20220404205004_jpg.rf.4e858bc6fcd21fcccf707639f4c43984.jpg",
+      "similarity": 0.994
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205006_jpg.rf.7ce7efeb869e6964a5268dda2632ede1.jpg",
+      "b": "train\\healthy\\IMG20220404205008_jpg.rf.ae9951b09277d59e8471f3ed3fd88908.jpg",
+      "similarity": 0.9891
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205006_jpg.rf.7ce7efeb869e6964a5268dda2632ede1.jpg",
+      "b": "train\\healthy\\IMG20220404205011_jpg.rf.3172f0f9984e62071f51f2820f33c5ab.jpg",
+      "similarity": 0.9899
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205006_jpg.rf.7ce7efeb869e6964a5268dda2632ede1.jpg",
+      "b": "train\\healthy\\IMG20220404205014_jpg.rf.22843b81ce77267c57d6bf84ef4321c8.jpg",
+      "similarity": 0.9938
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205107_jpg.rf.b6a53765f50600e5748bcee7a2e1fad8.jpg",
+      "b": "train\\healthy\\IMG20220404205042_jpg.rf.c31ac6e8916a59531b7119e661bc8170.jpg",
+      "similarity": 0.9821
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205107_jpg.rf.b6a53765f50600e5748bcee7a2e1fad8.jpg",
+      "b": "train\\healthy\\IMG20220404205053_jpg.rf.312ad6e3c64a0158319de7d824e1d642.jpg",
+      "similarity": 0.9771
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205107_jpg.rf.b6a53765f50600e5748bcee7a2e1fad8.jpg",
+      "b": "train\\healthy\\IMG20220404205056_jpg.rf.ece7952ff7b67ca283a376a341d78b58.jpg",
+      "similarity": 0.9746
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205107_jpg.rf.b6a53765f50600e5748bcee7a2e1fad8.jpg",
+      "b": "train\\healthy\\IMG20220404205059_jpg.rf.68942d77e1aa062709130ba87789d9c6.jpg",
+      "similarity": 0.9766
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205107_jpg.rf.b6a53765f50600e5748bcee7a2e1fad8.jpg",
+      "b": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a.jpg",
+      "similarity": 0.9707
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205142_jpg.rf.e00386e587bc1c503bee2aa1a546b63b.jpg",
+      "b": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a.jpg",
+      "similarity": 0.9787
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205142_jpg.rf.e00386e587bc1c503bee2aa1a546b63b.jpg",
+      "b": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0.jpg",
+      "similarity": 0.9727
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205142_jpg.rf.e00386e587bc1c503bee2aa1a546b63b.jpg",
+      "b": "train\\healthy\\IMG20220404205156_jpg.rf.0569a9e46ea73eee1624649498d25daf.jpg",
+      "similarity": 0.9834
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205142_jpg.rf.e00386e587bc1c503bee2aa1a546b63b.jpg",
+      "b": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5.jpg",
+      "similarity": 0.9832
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205142_jpg.rf.e00386e587bc1c503bee2aa1a546b63b.jpg",
+      "b": "train\\healthy\\IMG20220404205207_jpg.rf.a3d5a5fff900a402b372941bace1aa7c.jpg",
+      "similarity": 0.9702
+    },
+    {
+      "a": "test\\healthy\\IMG20220404205142_jpg.rf.e00386e587bc1c503bee2aa1a546b63b.jpg",
+      "b": "valid\\healthy\\IMG20220404205158_jpg.rf.21452b44568296c4732e3a1031c2d273.jpg",
+      "similarity": 0.9816
+    },
+    {
+      "a": "train\\damaged\\20220405_111326_jpg.rf.f3d88cfdb7727bb274aaaa2ac31a8ecd.jpg",
+      "b": "train\\damaged\\20220405_111341_jpg.rf.0788d9a1327abe819450e4ac5aad8ec3.jpg",
+      "similarity": 0.9462
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221027_jpg.rf.477c01d91460539d2d182d18b923fa45.jpg",
+      "b": "train\\damaged\\IMG20220404221034_jpg.rf.4bbac5d931b94c5ca0aa3e439ad32741.jpg",
+      "similarity": 0.9331
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221034_jpg.rf.4bbac5d931b94c5ca0aa3e439ad32741.jpg",
+      "b": "train\\damaged\\IMG20220404221037_jpg.rf.799b25ed449eb5c23976df92bc593297.jpg",
+      "similarity": 0.9693
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221045_jpg.rf.ec5c0fa5d43f6c4884da7d8744167da4.jpg",
+      "b": "valid\\damaged\\IMG20220404221102_jpg.rf.35a1e7822f08e0a9868f9b7ed4569b22.jpg",
+      "similarity": 0.9311
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221045_jpg.rf.ec5c0fa5d43f6c4884da7d8744167da4.jpg",
+      "b": "valid\\damaged\\IMG20220404221109_jpg.rf.9f0fdbf00910d2e34d7273c49ff137fc.jpg",
+      "similarity": 0.9438
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221051_jpg.rf.7847bdbde18eb321e8b61ca2b1ea73bd.jpg",
+      "b": "train\\damaged\\IMG20220404221106_jpg.rf.16e00383dc7a6cbd05d32ba14bf15986.jpg",
+      "similarity": 0.9325
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221100_jpg.rf.45dbee72a8da1d7829fe6ecbb5094bc3.jpg",
+      "b": "train\\damaged\\IMG20220404221111_jpg.rf.25bacdcf48bd2debe1f23184c03ccb1d.jpg",
+      "similarity": 0.9488
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221100_jpg.rf.45dbee72a8da1d7829fe6ecbb5094bc3.jpg",
+      "b": "valid\\damaged\\IMG20220404221047_jpg.rf.6a109c26ae8fe02eb3d083eac13e231a.jpg",
+      "similarity": 0.943
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221100_jpg.rf.45dbee72a8da1d7829fe6ecbb5094bc3.jpg",
+      "b": "valid\\damaged\\IMG20220404221102_jpg.rf.35a1e7822f08e0a9868f9b7ed4569b22.jpg",
+      "similarity": 0.9624
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221100_jpg.rf.45dbee72a8da1d7829fe6ecbb5094bc3.jpg",
+      "b": "valid\\damaged\\IMG20220404221109_jpg.rf.9f0fdbf00910d2e34d7273c49ff137fc.jpg",
+      "similarity": 0.9552
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221104_jpg.rf.05ed82b9891c94501401769f39fde4a1.jpg",
+      "b": "valid\\damaged\\IMG20220404221132_jpg.rf.1e1104ba57a12609851c728d7ee374e2.jpg",
+      "similarity": 0.9346
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221106_jpg.rf.16e00383dc7a6cbd05d32ba14bf15986.jpg",
+      "b": "valid\\damaged\\IMG20220404221047_jpg.rf.6a109c26ae8fe02eb3d083eac13e231a.jpg",
+      "similarity": 0.9503
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221111_jpg.rf.25bacdcf48bd2debe1f23184c03ccb1d.jpg",
+      "b": "valid\\damaged\\IMG20220404221102_jpg.rf.35a1e7822f08e0a9868f9b7ed4569b22.jpg",
+      "similarity": 0.9674
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221111_jpg.rf.25bacdcf48bd2debe1f23184c03ccb1d.jpg",
+      "b": "valid\\damaged\\IMG20220404221109_jpg.rf.9f0fdbf00910d2e34d7273c49ff137fc.jpg",
+      "similarity": 0.9516
+    },
+    {
+      "a": "train\\damaged\\IMG20220404221111_jpg.rf.25bacdcf48bd2debe1f23184c03ccb1d.jpg",
+      "b": "valid\\damaged\\IMG20220404221132_jpg.rf.1e1104ba57a12609851c728d7ee374e2.jpg",
+      "similarity": 0.9399
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222251_jpg.rf.19a29fb60a08adab197d129719132b18.jpg",
+      "b": "train\\damaged\\IMG20220404222258_jpg.rf.5108a62cc9552b175852284d6432e42a.jpg",
+      "similarity": 0.9377
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222300_jpg.rf.266929899db5beae2a3bc1b89b48fe6c.jpg",
+      "b": "train\\damaged\\IMG20220404222315_jpg.rf.e7a117981feec748e40872330e86f2db.jpg",
+      "similarity": 0.9336
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222315_jpg.rf.e7a117981feec748e40872330e86f2db.jpg",
+      "b": "train\\damaged\\IMG20220404222321_jpg.rf.1e198e1a9ffb7402627f35f9454b7888.jpg",
+      "similarity": 0.962
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222336_jpg.rf.d7e6bb36959ea93c1da970ae5de95862.jpg",
+      "b": "train\\damaged\\IMG20220404222338_jpg.rf.64b0c646128b25ddfdc522a51e513edb.jpg",
+      "similarity": 0.9557
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222340_jpg.rf.12a3fd8b3d9473c731f234b73a178eb8.jpg",
+      "b": "train\\damaged\\IMG20220404222343_jpg.rf.c0d4b8a42b3e9e6c076a8adb7bac7480.jpg",
+      "similarity": 0.9602
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222340_jpg.rf.12a3fd8b3d9473c731f234b73a178eb8.jpg",
+      "b": "train\\damaged\\IMG20220404222406_jpg.rf.664df33f45d1f734cae08ce99a6d6ee0.jpg",
+      "similarity": 0.9564
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222346_jpg.rf.ab9eb8604f51629fd9a6c42fcace0b95.jpg",
+      "b": "train\\damaged\\IMG20220404222353_jpg.rf.207749c89668651bce467bc922da57eb.jpg",
+      "similarity": 0.9662
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222349_jpg.rf.2a4ea2579d709bcb00a14e3d01899acb.jpg",
+      "b": "train\\damaged\\IMG20220404222406_jpg.rf.664df33f45d1f734cae08ce99a6d6ee0.jpg",
+      "similarity": 0.9362
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222349_jpg.rf.2a4ea2579d709bcb00a14e3d01899acb.jpg",
+      "b": "train\\damaged\\IMG20220404222409_jpg.rf.0f4b0cb01a42fa1c2d15be1617579799.jpg",
+      "similarity": 0.9368
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222355_jpg.rf.48f19c162c8d985248fce8006fcbcff9.jpg",
+      "b": "train\\damaged\\IMG20220404222359_jpg.rf.aa18f4d780cc4f9dcca11e11488b929d.jpg",
+      "similarity": 0.9353
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222355_jpg.rf.48f19c162c8d985248fce8006fcbcff9.jpg",
+      "b": "train\\damaged\\IMG20220404222403_jpg.rf.3510fc497b207a8d0e0f3643d52150fc.jpg",
+      "similarity": 0.9695
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222355_jpg.rf.48f19c162c8d985248fce8006fcbcff9.jpg",
+      "b": "train\\damaged\\IMG20220404222406_jpg.rf.664df33f45d1f734cae08ce99a6d6ee0.jpg",
+      "similarity": 0.9735
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222355_jpg.rf.48f19c162c8d985248fce8006fcbcff9.jpg",
+      "b": "train\\damaged\\IMG20220404222409_jpg.rf.0f4b0cb01a42fa1c2d15be1617579799.jpg",
+      "similarity": 0.938
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222359_jpg.rf.aa18f4d780cc4f9dcca11e11488b929d.jpg",
+      "b": "train\\damaged\\IMG20220404222403_jpg.rf.3510fc497b207a8d0e0f3643d52150fc.jpg",
+      "similarity": 0.9616
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222403_jpg.rf.3510fc497b207a8d0e0f3643d52150fc.jpg",
+      "b": "train\\damaged\\IMG20220404222406_jpg.rf.664df33f45d1f734cae08ce99a6d6ee0.jpg",
+      "similarity": 0.9602
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222406_jpg.rf.664df33f45d1f734cae08ce99a6d6ee0.jpg",
+      "b": "train\\damaged\\IMG20220404222409_jpg.rf.0f4b0cb01a42fa1c2d15be1617579799.jpg",
+      "similarity": 0.9422
+    },
+    {
+      "a": "train\\damaged\\IMG20220404222439_jpg.rf.25399451e0047e2ec637fc7e71e9c195.jpg",
+      "b": "train\\damaged\\IMG20220404222445_jpg.rf.7e02be8891636e06232b40cb54212730.jpg",
+      "similarity": 0.9354
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223345_jpg.rf.09e4a76ada6d3eff5e0b5351f04ecb75.jpg",
+      "b": "train\\damaged\\IMG20220404223349_jpg.rf.8aadadb8e34375fe3c753d032e12df4d.jpg",
+      "similarity": 0.9339
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223724_jpg.rf.876d84aa3c96e593d223e7c2a6a4d73a.jpg",
+      "b": "train\\damaged\\IMG20220404223727_jpg.rf.e4bf150bd3e8855de485e22aa85766e8.jpg",
+      "similarity": 0.9667
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223743_jpg.rf.774b36e02d3ece3c42ab8ac5252a5ca9.jpg",
+      "b": "train\\damaged\\IMG20220404223806_jpg.rf.60c2dda126aa7523c8b056f24dc94395.jpg",
+      "similarity": 0.9491
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223759_jpg.rf.4efb926e3d95718064a0cb8b92773da9.jpg",
+      "b": "train\\damaged\\IMG20220404223815_jpg.rf.7f58509222c604a4480b888173185c86.jpg",
+      "similarity": 0.982
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223806_jpg.rf.60c2dda126aa7523c8b056f24dc94395.jpg",
+      "b": "train\\damaged\\IMG20220404223812_jpg.rf.773cb15bc2a95d1fc6738b845e4684b3.jpg",
+      "similarity": 0.9732
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223806_jpg.rf.60c2dda126aa7523c8b056f24dc94395.jpg",
+      "b": "train\\damaged\\IMG20220404223819_jpg.rf.a255b3a6a4726320d05ffa0dbe49e807.jpg",
+      "similarity": 0.9658
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223806_jpg.rf.60c2dda126aa7523c8b056f24dc94395.jpg",
+      "b": "train\\damaged\\IMG20220404223823_jpg.rf.1a6d27e241ece992c95d89c0c3851032.jpg",
+      "similarity": 0.9742
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223806_jpg.rf.60c2dda126aa7523c8b056f24dc94395.jpg",
+      "b": "train\\damaged\\IMG20220404223825_jpg.rf.6a51f6535d82fe2a3bcd454f2bc4e6e5.jpg",
+      "similarity": 0.9399
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223812_jpg.rf.773cb15bc2a95d1fc6738b845e4684b3.jpg",
+      "b": "train\\damaged\\IMG20220404223819_jpg.rf.a255b3a6a4726320d05ffa0dbe49e807.jpg",
+      "similarity": 0.9503
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223812_jpg.rf.773cb15bc2a95d1fc6738b845e4684b3.jpg",
+      "b": "train\\damaged\\IMG20220404223823_jpg.rf.1a6d27e241ece992c95d89c0c3851032.jpg",
+      "similarity": 0.9835
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223812_jpg.rf.773cb15bc2a95d1fc6738b845e4684b3.jpg",
+      "b": "train\\damaged\\IMG20220404223825_jpg.rf.6a51f6535d82fe2a3bcd454f2bc4e6e5.jpg",
+      "similarity": 0.937
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223817_jpg.rf.a451e1976e4ebad011d43c387aa6a06c.jpg",
+      "b": "train\\damaged\\IMG20220404223819_jpg.rf.a255b3a6a4726320d05ffa0dbe49e807.jpg",
+      "similarity": 0.9596
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223819_jpg.rf.a255b3a6a4726320d05ffa0dbe49e807.jpg",
+      "b": "train\\damaged\\IMG20220404223823_jpg.rf.1a6d27e241ece992c95d89c0c3851032.jpg",
+      "similarity": 0.9483
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223823_jpg.rf.1a6d27e241ece992c95d89c0c3851032.jpg",
+      "b": "train\\damaged\\IMG20220404223825_jpg.rf.6a51f6535d82fe2a3bcd454f2bc4e6e5.jpg",
+      "similarity": 0.9446
+    },
+    {
+      "a": "train\\damaged\\IMG20220404223945_jpg.rf.3172c784db3046d6d4b3de5f170e33ce.jpg",
+      "b": "train\\damaged\\IMG20220404223959_jpg.rf.da2dd38fed23061a1a7b3f0fd7ede8c4.jpg",
+      "similarity": 0.9521
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224152_jpg.rf.75f4a189d4eb83cb50ca7757876b0bb6.jpg",
+      "b": "train\\damaged\\IMG20220404224157_jpg.rf.e9500305438c89d5f1b1f591168808da.jpg",
+      "similarity": 0.9619
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224152_jpg.rf.75f4a189d4eb83cb50ca7757876b0bb6.jpg",
+      "b": "train\\damaged\\IMG20220404224221_jpg.rf.b902d4d5daeac76fc9513429fe3713e1.jpg",
+      "similarity": 0.9422
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224154_jpg.rf.d2d51f8f4ec38d834242fdb5f10b79d1.jpg",
+      "b": "train\\damaged\\IMG20220404224157_jpg.rf.e9500305438c89d5f1b1f591168808da.jpg",
+      "similarity": 0.9315
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224154_jpg.rf.d2d51f8f4ec38d834242fdb5f10b79d1.jpg",
+      "b": "train\\damaged\\IMG20220404224224_jpg.rf.b6e80f51dc82a76e3d270082444f7821.jpg",
+      "similarity": 0.9359
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224157_jpg.rf.e9500305438c89d5f1b1f591168808da.jpg",
+      "b": "train\\damaged\\IMG20220404224221_jpg.rf.b902d4d5daeac76fc9513429fe3713e1.jpg",
+      "similarity": 0.9356
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224221_jpg.rf.b902d4d5daeac76fc9513429fe3713e1.jpg",
+      "b": "train\\damaged\\IMG20220404224224_jpg.rf.b6e80f51dc82a76e3d270082444f7821.jpg",
+      "similarity": 0.9729
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224221_jpg.rf.b902d4d5daeac76fc9513429fe3713e1.jpg",
+      "b": "train\\damaged\\IMG20220404224227_jpg.rf.0fcb0d4fbf98952d6ac639bca7599302.jpg",
+      "similarity": 0.9674
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224221_jpg.rf.b902d4d5daeac76fc9513429fe3713e1.jpg",
+      "b": "train\\damaged\\IMG20220404224229_jpg.rf.e5cf158411439027e02735c3975b16c3.jpg",
+      "similarity": 0.9635
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224224_jpg.rf.b6e80f51dc82a76e3d270082444f7821.jpg",
+      "b": "train\\damaged\\IMG20220404224227_jpg.rf.0fcb0d4fbf98952d6ac639bca7599302.jpg",
+      "similarity": 0.9436
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224224_jpg.rf.b6e80f51dc82a76e3d270082444f7821.jpg",
+      "b": "train\\damaged\\IMG20220404224229_jpg.rf.e5cf158411439027e02735c3975b16c3.jpg",
+      "similarity": 0.9574
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224227_jpg.rf.0fcb0d4fbf98952d6ac639bca7599302.jpg",
+      "b": "train\\damaged\\IMG20220404224229_jpg.rf.e5cf158411439027e02735c3975b16c3.jpg",
+      "similarity": 0.9396
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224229_jpg.rf.e5cf158411439027e02735c3975b16c3.jpg",
+      "b": "train\\damaged\\IMG20220404224246_jpg.rf.65052474b543566c6ca67d4b6d95e4a9.jpg",
+      "similarity": 0.9422
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224232_jpg.rf.cfb009bae609133533e70482e9cee901.jpg",
+      "b": "train\\damaged\\IMG20220404224246_jpg.rf.65052474b543566c6ca67d4b6d95e4a9.jpg",
+      "similarity": 0.9345
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224232_jpg.rf.cfb009bae609133533e70482e9cee901.jpg",
+      "b": "train\\damaged\\IMG20220404224251_jpg.rf.b3b75db6471c657a74a3fdddb791cfad.jpg",
+      "similarity": 0.962
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224246_jpg.rf.65052474b543566c6ca67d4b6d95e4a9.jpg",
+      "b": "train\\damaged\\IMG20220404224248_jpg.rf.5dfb7f355494938d2476897c94882ecf.jpg",
+      "similarity": 0.9503
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224246_jpg.rf.65052474b543566c6ca67d4b6d95e4a9.jpg",
+      "b": "valid\\damaged\\IMG20220404224310_jpg.rf.8b678dda967887d63097134bb6957ce3.jpg",
+      "similarity": 0.9317
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224258_jpg.rf.aab441b2b3348426b0275a1b3e1cff4e.jpg",
+      "b": "train\\damaged\\IMG20220404224324_jpg.rf.8f88e623120f628d7472639272714ade.jpg",
+      "similarity": 0.9441
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224322_jpg.rf.6e74bab2cd921162ead0936e626b0fa0.jpg",
+      "b": "train\\damaged\\IMG20220404224330_jpg.rf.e8b08db53382043c5bddcc3f961d90e1.jpg",
+      "similarity": 0.9427
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224324_jpg.rf.8f88e623120f628d7472639272714ade.jpg",
+      "b": "train\\damaged\\IMG20220404224327_jpg.rf.cdc8d496986cddc2f4d9457a698c8a63.jpg",
+      "similarity": 0.9729
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224324_jpg.rf.8f88e623120f628d7472639272714ade.jpg",
+      "b": "train\\damaged\\IMG20220404224345_jpg.rf.1c2fdbedcf14584d4354d86e49e05ef5.jpg",
+      "similarity": 0.9342
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224324_jpg.rf.8f88e623120f628d7472639272714ade.jpg",
+      "b": "train\\damaged\\IMG20220404224350_jpg.rf.6d818643b9b1f52e3dc9ec4b376833e2.jpg",
+      "similarity": 0.9665
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224324_jpg.rf.8f88e623120f628d7472639272714ade.jpg",
+      "b": "valid\\damaged\\IMG20220404224325_jpg.rf.f5eff52380eecf1e627a121f8a668781.jpg",
+      "similarity": 0.9507
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224324_jpg.rf.8f88e623120f628d7472639272714ade.jpg",
+      "b": "valid\\damaged\\IMG20220404224334_jpg.rf.b9d9e5c3e4406dc68d0b610466d9c083.jpg",
+      "similarity": 0.9512
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224327_jpg.rf.cdc8d496986cddc2f4d9457a698c8a63.jpg",
+      "b": "train\\damaged\\IMG20220404224350_jpg.rf.6d818643b9b1f52e3dc9ec4b376833e2.jpg",
+      "similarity": 0.9456
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224327_jpg.rf.cdc8d496986cddc2f4d9457a698c8a63.jpg",
+      "b": "valid\\damaged\\IMG20220404224325_jpg.rf.f5eff52380eecf1e627a121f8a668781.jpg",
+      "similarity": 0.9554
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224327_jpg.rf.cdc8d496986cddc2f4d9457a698c8a63.jpg",
+      "b": "valid\\damaged\\IMG20220404224334_jpg.rf.b9d9e5c3e4406dc68d0b610466d9c083.jpg",
+      "similarity": 0.9514
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224330_jpg.rf.e8b08db53382043c5bddcc3f961d90e1.jpg",
+      "b": "train\\damaged\\IMG20220404224347_jpg.rf.2bc01c3c4242483bb451436cd2835697.jpg",
+      "similarity": 0.9347
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224332_jpg.rf.f39214d7436ebec92f283f86e9dd71d7.jpg",
+      "b": "train\\damaged\\IMG20220404224339_jpg.rf.d873608b27b011cf744d3a248fcf19b5.jpg",
+      "similarity": 0.9465
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224345_jpg.rf.1c2fdbedcf14584d4354d86e49e05ef5.jpg",
+      "b": "train\\damaged\\IMG20220404224350_jpg.rf.6d818643b9b1f52e3dc9ec4b376833e2.jpg",
+      "similarity": 0.9587
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224345_jpg.rf.1c2fdbedcf14584d4354d86e49e05ef5.jpg",
+      "b": "valid\\damaged\\IMG20220404224334_jpg.rf.b9d9e5c3e4406dc68d0b610466d9c083.jpg",
+      "similarity": 0.9421
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224350_jpg.rf.6d818643b9b1f52e3dc9ec4b376833e2.jpg",
+      "b": "valid\\damaged\\IMG20220404224325_jpg.rf.f5eff52380eecf1e627a121f8a668781.jpg",
+      "similarity": 0.9443
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224350_jpg.rf.6d818643b9b1f52e3dc9ec4b376833e2.jpg",
+      "b": "valid\\damaged\\IMG20220404224334_jpg.rf.b9d9e5c3e4406dc68d0b610466d9c083.jpg",
+      "similarity": 0.9527
+    },
+    {
+      "a": "train\\damaged\\IMG20220404224447_jpg.rf.cb35ce99c7ccbe9abc825bf84a375e21.jpg",
+      "b": "valid\\damaged\\IMG20220404224439_jpg.rf.5c9d287a7c098d1b22281f902df6fbe4.jpg",
+      "similarity": 0.962
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165407_jpg.rf.e614f04f544d2e04e07b2e48907ae0f4.jpg",
+      "b": "train\\damaged\\IMG_20220404_165418_jpg.rf.d277863994a61538fbcdf87004c1568b.jpg",
+      "similarity": 0.9867
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165407_jpg.rf.e614f04f544d2e04e07b2e48907ae0f4.jpg",
+      "b": "train\\damaged\\IMG_20220404_165429_jpg.rf.3452eda5a1dc4469f09b2af5fab00095.jpg",
+      "similarity": 0.9927
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165407_jpg.rf.e614f04f544d2e04e07b2e48907ae0f4.jpg",
+      "b": "valid\\damaged\\IMG_20220404_165353_jpg.rf.e86394aeee4e1926532a3c84150206f1.jpg",
+      "similarity": 0.9885
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165407_jpg.rf.e614f04f544d2e04e07b2e48907ae0f4.jpg",
+      "b": "valid\\damaged\\IMG_20220404_165404_jpg.rf.c6ef7b2a373ae44be00cc7de18c6c51d.jpg",
+      "similarity": 0.9976
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165418_jpg.rf.d277863994a61538fbcdf87004c1568b.jpg",
+      "b": "train\\damaged\\IMG_20220404_165429_jpg.rf.3452eda5a1dc4469f09b2af5fab00095.jpg",
+      "similarity": 0.9846
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165418_jpg.rf.d277863994a61538fbcdf87004c1568b.jpg",
+      "b": "train\\damaged\\IMG_20220404_165444_jpg.rf.347d7e6a599d9f00395f973c3a635b2f.jpg",
+      "similarity": 0.9838
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165418_jpg.rf.d277863994a61538fbcdf87004c1568b.jpg",
+      "b": "valid\\damaged\\IMG_20220404_165353_jpg.rf.e86394aeee4e1926532a3c84150206f1.jpg",
+      "similarity": 0.9913
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165418_jpg.rf.d277863994a61538fbcdf87004c1568b.jpg",
+      "b": "valid\\damaged\\IMG_20220404_165404_jpg.rf.c6ef7b2a373ae44be00cc7de18c6c51d.jpg",
+      "similarity": 0.9848
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165429_jpg.rf.3452eda5a1dc4469f09b2af5fab00095.jpg",
+      "b": "train\\damaged\\IMG_20220404_165444_jpg.rf.347d7e6a599d9f00395f973c3a635b2f.jpg",
+      "similarity": 0.9993
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165429_jpg.rf.3452eda5a1dc4469f09b2af5fab00095.jpg",
+      "b": "train\\damaged\\IMG_20220404_165449_jpg.rf.46532327cb849f3b9513b9f58d1e6a01.jpg",
+      "similarity": 0.9739
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165429_jpg.rf.3452eda5a1dc4469f09b2af5fab00095.jpg",
+      "b": "valid\\damaged\\IMG_20220404_165404_jpg.rf.c6ef7b2a373ae44be00cc7de18c6c51d.jpg",
+      "similarity": 0.9943
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165444_jpg.rf.347d7e6a599d9f00395f973c3a635b2f.jpg",
+      "b": "train\\damaged\\IMG_20220404_165449_jpg.rf.46532327cb849f3b9513b9f58d1e6a01.jpg",
+      "similarity": 0.9747
+    },
+    {
+      "a": "train\\damaged\\IMG_20220404_165449_jpg.rf.46532327cb849f3b9513b9f58d1e6a01.jpg",
+      "b": "train\\damaged\\IMG_20220404_165454_jpg.rf.d50e05aa78df6c6937dc4ca6384b99f3.jpg",
+      "similarity": 0.9965
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_090403_jpg.rf.70cf0c301c4c9c7cb84d1a4e0977b586.jpg",
+      "b": "valid\\damaged\\IMG_20220405_090339_jpg.rf.b97afee96d3c9d4226bcd4a33985d0b2.jpg",
+      "similarity": 0.9834
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_090701_jpg.rf.6edf8d295097e4e8cf42937645e02736.jpg",
+      "b": "train\\damaged\\IMG_20220405_090707_jpg.rf.d3739c7fbe30e6027d43cd3208d3452a.jpg",
+      "similarity": 0.9884
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_090751_jpg.rf.cb37bac9f160b9e8e99ed2e748cd1422.jpg",
+      "b": "valid\\damaged\\IMG_20220405_090813_jpg.rf.bf8b59d0efe25cfeabb4497b0e75426a.jpg",
+      "similarity": 0.9817
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091109_jpg.rf.9748216c6f9069225379ed5b6d56bd01.jpg",
+      "b": "train\\damaged\\IMG_20220405_091121_jpg.rf.da234ff73255857a23e5945bf32a2479.jpg",
+      "similarity": 0.9708
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091121_jpg.rf.da234ff73255857a23e5945bf32a2479.jpg",
+      "b": "train\\damaged\\IMG_20220405_091131_jpg.rf.0d7799a4690a3bc5d3fcbae987950b72.jpg",
+      "similarity": 0.9874
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091314_jpg.rf.31035e6d7e896bd53331d26822e2ec72.jpg",
+      "b": "train\\damaged\\IMG_20220405_091344_jpg.rf.31b8ca665978f3b9fe0329f5ec5b3e5f.jpg",
+      "similarity": 0.9616
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091334_jpg.rf.f5b3db5a43ad7a5977d1c3ec2b1ce1e4.jpg",
+      "b": "train\\damaged\\IMG_20220405_091344_jpg.rf.31b8ca665978f3b9fe0329f5ec5b3e5f.jpg",
+      "similarity": 0.969
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091334_jpg.rf.f5b3db5a43ad7a5977d1c3ec2b1ce1e4.jpg",
+      "b": "train\\damaged\\IMG_20220405_091346_jpg.rf.45cc27841ef3bd0a36371cf220ad7c20.jpg",
+      "similarity": 0.9681
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091344_jpg.rf.31b8ca665978f3b9fe0329f5ec5b3e5f.jpg",
+      "b": "train\\damaged\\IMG_20220405_091346_jpg.rf.45cc27841ef3bd0a36371cf220ad7c20.jpg",
+      "similarity": 0.9998
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091430_jpg.rf.ce9992fa70fe78b304781c6a72c1ff20.jpg",
+      "b": "train\\damaged\\IMG_20220405_091448_jpg.rf.507838fee406035aca9aa4eb7c14cb28.jpg",
+      "similarity": 0.9831
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091708_jpg.rf.3406cb8ad0a14642a1d644e993639e5b.jpg",
+      "b": "train\\damaged\\IMG_20220405_091719_jpg.rf.b0c0a6ad0cc8e758acea0ee7e62eb09b.jpg",
+      "similarity": 0.9958
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091708_jpg.rf.3406cb8ad0a14642a1d644e993639e5b.jpg",
+      "b": "train\\damaged\\IMG_20220405_091800_jpg.rf.40a30f96c5d2c6b7d3cc31a4ebb6698a.jpg",
+      "similarity": 0.9951
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091708_jpg.rf.3406cb8ad0a14642a1d644e993639e5b.jpg",
+      "b": "train\\damaged\\IMG_20220405_091820_jpg.rf.e169d0bb13dd7244d267de195de7750b.jpg",
+      "similarity": 0.996
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091719_jpg.rf.b0c0a6ad0cc8e758acea0ee7e62eb09b.jpg",
+      "b": "train\\damaged\\IMG_20220405_091820_jpg.rf.e169d0bb13dd7244d267de195de7750b.jpg",
+      "similarity": 0.9962
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091800_jpg.rf.40a30f96c5d2c6b7d3cc31a4ebb6698a.jpg",
+      "b": "train\\damaged\\IMG_20220405_091820_jpg.rf.e169d0bb13dd7244d267de195de7750b.jpg",
+      "similarity": 0.993
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091800_jpg.rf.40a30f96c5d2c6b7d3cc31a4ebb6698a.jpg",
+      "b": "valid\\damaged\\IMG_20220405_091811_jpg.rf.36a0df5dbee707c03f3170323e2b8e3f.jpg",
+      "similarity": 0.9924
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091820_jpg.rf.e169d0bb13dd7244d267de195de7750b.jpg",
+      "b": "train\\damaged\\IMG_20220405_091841_jpg.rf.975b3ba594ad1c4e1db63edcecffa6e6.jpg",
+      "similarity": 0.9762
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091820_jpg.rf.e169d0bb13dd7244d267de195de7750b.jpg",
+      "b": "valid\\damaged\\IMG_20220405_091811_jpg.rf.36a0df5dbee707c03f3170323e2b8e3f.jpg",
+      "similarity": 0.9861
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_091949_jpg.rf.2647a45a2672ec30db2d4ace022b2300.jpg",
+      "b": "train\\damaged\\IMG_20220405_091954_jpg.rf.fcd4700c458b7cbedbc807a128ae6d54.jpg",
+      "similarity": 0.9999
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092031_jpg.rf.a72f39aa1395fc111b95e5973ee166b5.jpg",
+      "b": "train\\damaged\\IMG_20220405_092054_jpg.rf.930b73070d0134c3ff23cdaf4dac9b42.jpg",
+      "similarity": 0.9886
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092054_jpg.rf.930b73070d0134c3ff23cdaf4dac9b42.jpg",
+      "b": "train\\damaged\\IMG_20220405_092122_jpg.rf.a047d5b3660e3ccf87fb591606ab8adc.jpg",
+      "similarity": 0.9924
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092122_jpg.rf.a047d5b3660e3ccf87fb591606ab8adc.jpg",
+      "b": "train\\damaged\\IMG_20220405_092139_jpg.rf.697b0a16537311a458fe81eba25fef1a.jpg",
+      "similarity": 0.9714
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092139_jpg.rf.697b0a16537311a458fe81eba25fef1a.jpg",
+      "b": "train\\damaged\\IMG_20220405_092159_jpg.rf.80aaff910f4a1309b578df704ab20de6.jpg",
+      "similarity": 0.977
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092139_jpg.rf.697b0a16537311a458fe81eba25fef1a.jpg",
+      "b": "train\\damaged\\IMG_20220405_092209_jpg.rf.99738db42cbb937dedf5bfdd4b710698.jpg",
+      "similarity": 0.9779
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092159_jpg.rf.80aaff910f4a1309b578df704ab20de6.jpg",
+      "b": "train\\damaged\\IMG_20220405_092209_jpg.rf.99738db42cbb937dedf5bfdd4b710698.jpg",
+      "similarity": 0.9871
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092159_jpg.rf.80aaff910f4a1309b578df704ab20de6.jpg",
+      "b": "train\\damaged\\IMG_20220405_092226_jpg.rf.1b99061c044da4af90251564ed9f47c6.jpg",
+      "similarity": 0.9923
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092209_jpg.rf.99738db42cbb937dedf5bfdd4b710698.jpg",
+      "b": "train\\damaged\\IMG_20220405_092226_jpg.rf.1b99061c044da4af90251564ed9f47c6.jpg",
+      "similarity": 0.983
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092305_jpg.rf.d282f9900a33dec34590ca6cdbe77bb3.jpg",
+      "b": "valid\\damaged\\IMG_20220405_092321_jpg.rf.1c399caae43633a747e926c2406494ce.jpg",
+      "similarity": 0.9722
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092340_jpg.rf.10cf0fa573abec85ad726d8df1e3ffb2.jpg",
+      "b": "valid\\damaged\\IMG_20220405_092321_jpg.rf.1c399caae43633a747e926c2406494ce.jpg",
+      "similarity": 0.9687
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092612_jpg.rf.38b5dba74d390b42fff4129db18bbeda.jpg",
+      "b": "train\\damaged\\IMG_20220405_092639_jpg.rf.462cbede97cdaa509ab9dbfc9dd7b0fa.jpg",
+      "similarity": 0.9903
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092639_jpg.rf.462cbede97cdaa509ab9dbfc9dd7b0fa.jpg",
+      "b": "train\\damaged\\IMG_20220405_092700_jpg.rf.5da4ffbc55024a45c285dbb22240a0be.jpg",
+      "similarity": 0.9689
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092639_jpg.rf.462cbede97cdaa509ab9dbfc9dd7b0fa.jpg",
+      "b": "train\\damaged\\IMG_20220405_092842_jpg.rf.daef62e263e986a5caef94fc5a29d85d.jpg",
+      "similarity": 0.995
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092639_jpg.rf.462cbede97cdaa509ab9dbfc9dd7b0fa.jpg",
+      "b": "train\\damaged\\IMG_20220405_092852_jpg.rf.2e72748504782bab4b971305717d5c6e.jpg",
+      "similarity": 0.9967
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092811_jpg.rf.dec68fcd6edab86a2e5e568d60bd1df2.jpg",
+      "b": "train\\damaged\\IMG_20220405_092818_jpg.rf.731d9c1419b92f275ffc5571c87fbc79.jpg",
+      "similarity": 0.9898
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092818_jpg.rf.731d9c1419b92f275ffc5571c87fbc79.jpg",
+      "b": "train\\damaged\\IMG_20220405_092842_jpg.rf.daef62e263e986a5caef94fc5a29d85d.jpg",
+      "similarity": 0.9948
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092818_jpg.rf.731d9c1419b92f275ffc5571c87fbc79.jpg",
+      "b": "train\\damaged\\IMG_20220405_092852_jpg.rf.2e72748504782bab4b971305717d5c6e.jpg",
+      "similarity": 0.9958
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092842_jpg.rf.daef62e263e986a5caef94fc5a29d85d.jpg",
+      "b": "train\\damaged\\IMG_20220405_092852_jpg.rf.2e72748504782bab4b971305717d5c6e.jpg",
+      "similarity": 0.9952
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092842_jpg.rf.daef62e263e986a5caef94fc5a29d85d.jpg",
+      "b": "train\\damaged\\IMG_20220405_092907_jpg.rf.9c51a97e332c4187e37e4fa9ab8e372e.jpg",
+      "similarity": 0.9593
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_092918_jpg.rf.c5e86fbc34711ec2ac93225f4e387b1c.jpg",
+      "b": "train\\damaged\\IMG_20220405_092945_jpg.rf.49197d704384b3b977412c137cd01554.jpg",
+      "similarity": 0.9722
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_093113_jpg.rf.63e67d0229999c702c5a00da26616e74.jpg",
+      "b": "train\\damaged\\IMG_20220405_093126_jpg.rf.9443a2811453e1ad7cda5ec9e9c88294.jpg",
+      "similarity": 0.9929
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_093216_jpg.rf.1dacd8df02e982b88c05eb1f7fd203b7.jpg",
+      "b": "train\\damaged\\IMG_20220405_093225_jpg.rf.1cd9253729b506690751aff90e5773db.jpg",
+      "similarity": 0.9809
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_093225_jpg.rf.1cd9253729b506690751aff90e5773db.jpg",
+      "b": "train\\damaged\\IMG_20220405_093250_jpg.rf.8acd38ff73f466f9efa3462bb8a3522e.jpg",
+      "similarity": 0.9729
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_093250_jpg.rf.8acd38ff73f466f9efa3462bb8a3522e.jpg",
+      "b": "train\\damaged\\IMG_20220405_093311_jpg.rf.a86e773d5278dce386309bb239d4a317.jpg",
+      "similarity": 0.9778
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_093311_jpg.rf.a86e773d5278dce386309bb239d4a317.jpg",
+      "b": "train\\damaged\\IMG_20220405_093339_jpg.rf.6e2abd3247adebd41400f6ac0a5fbfcb.jpg",
+      "similarity": 0.99
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_093339_jpg.rf.6e2abd3247adebd41400f6ac0a5fbfcb.jpg",
+      "b": "train\\damaged\\IMG_20220405_093348_jpg.rf.1d135edc265c3ae1c110ca55c1951f9f.jpg",
+      "similarity": 0.9882
+    },
+    {
+      "a": "train\\damaged\\IMG_20220405_110807_jpg.rf.51bafad882e773e9c1c7377f8f1d032d.jpg",
+      "b": "valid\\damaged\\IMG_20220405_110817_jpg.rf.ded08ad23f6461bfffbd43ae98c0c66e.jpg",
+      "similarity": 0.9893
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201558_jpg.rf.2ef254e95d0f8ca026e3c9ff391c1057.jpg",
+      "b": "train\\healthy\\IMG20220404201607_jpg.rf.b15413ac02da2f7dc61dc1d24d354e2e.jpg",
+      "similarity": 0.9897
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201558_jpg.rf.2ef254e95d0f8ca026e3c9ff391c1057.jpg",
+      "b": "train\\healthy\\IMG20220404201616_jpg.rf.82e9e88d42a29983c78000a7e68ff2b0.jpg",
+      "similarity": 0.9704
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201558_jpg.rf.2ef254e95d0f8ca026e3c9ff391c1057.jpg",
+      "b": "train\\healthy\\IMG20220404201620_jpg.rf.ed9a966d618473277e455e8db2fc63ab.jpg",
+      "similarity": 0.9707
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201558_jpg.rf.2ef254e95d0f8ca026e3c9ff391c1057.jpg",
+      "b": "valid\\healthy\\IMG20220404201626_jpg.rf.bb8287835042f3dd3b6faee883de9c57.jpg",
+      "similarity": 0.9866
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201607_jpg.rf.b15413ac02da2f7dc61dc1d24d354e2e.jpg",
+      "b": "train\\healthy\\IMG20220404201630_jpg.rf.92a083515598fde1a48e55b1dd8881ee.jpg",
+      "similarity": 0.9637
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201607_jpg.rf.b15413ac02da2f7dc61dc1d24d354e2e.jpg",
+      "b": "valid\\healthy\\IMG20220404201626_jpg.rf.bb8287835042f3dd3b6faee883de9c57.jpg",
+      "similarity": 0.9756
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201616_jpg.rf.82e9e88d42a29983c78000a7e68ff2b0.jpg",
+      "b": "train\\healthy\\IMG20220404201620_jpg.rf.ed9a966d618473277e455e8db2fc63ab.jpg",
+      "similarity": 0.9868
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201616_jpg.rf.82e9e88d42a29983c78000a7e68ff2b0.jpg",
+      "b": "train\\healthy\\IMG20220404201646_jpg.rf.f8365fa328863d0bac8e750f36c1f04d.jpg",
+      "similarity": 0.9627
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201616_jpg.rf.82e9e88d42a29983c78000a7e68ff2b0.jpg",
+      "b": "valid\\healthy\\IMG20220404201626_jpg.rf.bb8287835042f3dd3b6faee883de9c57.jpg",
+      "similarity": 0.9753
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201620_jpg.rf.ed9a966d618473277e455e8db2fc63ab.jpg",
+      "b": "train\\healthy\\IMG20220404201630_jpg.rf.92a083515598fde1a48e55b1dd8881ee.jpg",
+      "similarity": 0.9771
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201620_jpg.rf.ed9a966d618473277e455e8db2fc63ab.jpg",
+      "b": "valid\\healthy\\IMG20220404201626_jpg.rf.bb8287835042f3dd3b6faee883de9c57.jpg",
+      "similarity": 0.9844
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201630_jpg.rf.92a083515598fde1a48e55b1dd8881ee.jpg",
+      "b": "train\\healthy\\IMG20220404201646_jpg.rf.f8365fa328863d0bac8e750f36c1f04d.jpg",
+      "similarity": 0.9753
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201630_jpg.rf.92a083515598fde1a48e55b1dd8881ee.jpg",
+      "b": "valid\\healthy\\IMG20220404201626_jpg.rf.bb8287835042f3dd3b6faee883de9c57.jpg",
+      "similarity": 0.9813
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201704_jpg.rf.c2a33bdbb24b858c94404d7c49e0ac38.jpg",
+      "b": "train\\healthy\\IMG20220404201727_jpg.rf.ff5323224ea24f2db61c8b86fd1ee355.jpg",
+      "similarity": 0.9471
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201704_jpg.rf.c2a33bdbb24b858c94404d7c49e0ac38.jpg",
+      "b": "train\\healthy\\IMG20220404201730_jpg.rf.d0b206ca394f86f42d84460fd2267ac1.jpg",
+      "similarity": 0.9519
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201710_jpg.rf.f49ad011d5c0ea028593fc3ba9c1b1b3.jpg",
+      "b": "train\\healthy\\IMG20220404201715_jpg.rf.34593af49de294c839654f47e4f1299a.jpg",
+      "similarity": 0.9442
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201710_jpg.rf.f49ad011d5c0ea028593fc3ba9c1b1b3.jpg",
+      "b": "train\\healthy\\IMG20220404201740_jpg.rf.2775bff8028f3861c071677f5f6ceb7e.jpg",
+      "similarity": 0.9474
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201712_jpg.rf.337c70b2c7e0810b2922c77f71eaf6ef.jpg",
+      "b": "train\\healthy\\IMG20220404201730_jpg.rf.d0b206ca394f86f42d84460fd2267ac1.jpg",
+      "similarity": 0.9669
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201712_jpg.rf.337c70b2c7e0810b2922c77f71eaf6ef.jpg",
+      "b": "train\\healthy\\IMG20220404201740_jpg.rf.2775bff8028f3861c071677f5f6ceb7e.jpg",
+      "similarity": 0.9569
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201715_jpg.rf.34593af49de294c839654f47e4f1299a.jpg",
+      "b": "train\\healthy\\IMG20220404201740_jpg.rf.2775bff8028f3861c071677f5f6ceb7e.jpg",
+      "similarity": 0.9686
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201715_jpg.rf.34593af49de294c839654f47e4f1299a.jpg",
+      "b": "train\\healthy\\IMG20220404201745_jpg.rf.4f0d5b8a1166248c332889f45b4cc78d.jpg",
+      "similarity": 0.9501
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201715_jpg.rf.34593af49de294c839654f47e4f1299a.jpg",
+      "b": "valid\\healthy\\IMG20220404201721_jpg.rf.b7730ddc9ae5d6ccf37b1f8ddd064e49.jpg",
+      "similarity": 0.9466
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201724_jpg.rf.5d1c3f669f8eaa0543a1b162cd5ac7e1.jpg",
+      "b": "train\\healthy\\IMG20220404201727_jpg.rf.ff5323224ea24f2db61c8b86fd1ee355.jpg",
+      "similarity": 0.936
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201727_jpg.rf.ff5323224ea24f2db61c8b86fd1ee355.jpg",
+      "b": "train\\healthy\\IMG20220404201740_jpg.rf.2775bff8028f3861c071677f5f6ceb7e.jpg",
+      "similarity": 0.9518
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201727_jpg.rf.ff5323224ea24f2db61c8b86fd1ee355_aug.jpg",
+      "b": "train\\healthy\\IMG20220404201752_jpg.rf.232e21c1c13ef87de6e4ddbc9b43cbc1_aug.jpg",
+      "similarity": 0.9471
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201730_jpg.rf.d0b206ca394f86f42d84460fd2267ac1.jpg",
+      "b": "train\\healthy\\IMG20220404201740_jpg.rf.2775bff8028f3861c071677f5f6ceb7e.jpg",
+      "similarity": 0.9531
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201730_jpg.rf.d0b206ca394f86f42d84460fd2267ac1.jpg",
+      "b": "train\\healthy\\IMG20220404201745_jpg.rf.4f0d5b8a1166248c332889f45b4cc78d.jpg",
+      "similarity": 0.9775
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201740_jpg.rf.2775bff8028f3861c071677f5f6ceb7e.jpg",
+      "b": "train\\healthy\\IMG20220404201745_jpg.rf.4f0d5b8a1166248c332889f45b4cc78d.jpg",
+      "similarity": 0.9518
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201740_jpg.rf.2775bff8028f3861c071677f5f6ceb7e.jpg",
+      "b": "train\\healthy\\IMG20220404201752_jpg.rf.232e21c1c13ef87de6e4ddbc9b43cbc1.jpg",
+      "similarity": 0.9813
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201740_jpg.rf.2775bff8028f3861c071677f5f6ceb7e.jpg",
+      "b": "train\\healthy\\IMG20220404201800_jpg.rf.c1cb7ee5bf13182c410d1f143152a2c4.jpg",
+      "similarity": 0.9587
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201745_jpg.rf.4f0d5b8a1166248c332889f45b4cc78d.jpg",
+      "b": "train\\healthy\\IMG20220404201752_jpg.rf.232e21c1c13ef87de6e4ddbc9b43cbc1.jpg",
+      "similarity": 0.9483
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201745_jpg.rf.4f0d5b8a1166248c332889f45b4cc78d.jpg",
+      "b": "train\\healthy\\IMG20220404201800_jpg.rf.c1cb7ee5bf13182c410d1f143152a2c4.jpg",
+      "similarity": 0.958
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201745_jpg.rf.4f0d5b8a1166248c332889f45b4cc78d.jpg",
+      "b": "train\\healthy\\IMG20220404201810_jpg.rf.704fc8107d56923210f6d26226ba4c76.jpg",
+      "similarity": 0.9871
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201745_jpg.rf.4f0d5b8a1166248c332889f45b4cc78d.jpg",
+      "b": "valid\\healthy\\IMG20220404201755_jpg.rf.06ed3ca170f093cd8a5fbd33e1ad107b.jpg",
+      "similarity": 0.9526
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201752_jpg.rf.232e21c1c13ef87de6e4ddbc9b43cbc1.jpg",
+      "b": "train\\healthy\\IMG20220404201800_jpg.rf.c1cb7ee5bf13182c410d1f143152a2c4.jpg",
+      "similarity": 0.9601
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201752_jpg.rf.232e21c1c13ef87de6e4ddbc9b43cbc1.jpg",
+      "b": "valid\\healthy\\IMG20220404201755_jpg.rf.06ed3ca170f093cd8a5fbd33e1ad107b.jpg",
+      "similarity": 0.9428
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201810_jpg.rf.704fc8107d56923210f6d26226ba4c76.jpg",
+      "b": "train\\healthy\\IMG20220404201832_jpg.rf.5eda0c8306c0e153085a2649097c133c.jpg",
+      "similarity": 0.9663
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201810_jpg.rf.704fc8107d56923210f6d26226ba4c76.jpg",
+      "b": "valid\\healthy\\IMG20220404201755_jpg.rf.06ed3ca170f093cd8a5fbd33e1ad107b.jpg",
+      "similarity": 0.9623
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201810_jpg.rf.704fc8107d56923210f6d26226ba4c76.jpg",
+      "b": "valid\\healthy\\IMG20220404201826_jpg.rf.c8cfe871b49887fae468587b72c84aca.jpg",
+      "similarity": 0.9756
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201832_jpg.rf.5eda0c8306c0e153085a2649097c133c.jpg",
+      "b": "train\\healthy\\IMG20220404201854_jpg.rf.e87184c86ad39bc6cbe319ab85d236cc.jpg",
+      "similarity": 0.9766
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201832_jpg.rf.5eda0c8306c0e153085a2649097c133c.jpg",
+      "b": "valid\\healthy\\IMG20220404201826_jpg.rf.c8cfe871b49887fae468587b72c84aca.jpg",
+      "similarity": 0.984
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201832_jpg.rf.5eda0c8306c0e153085a2649097c133c_aug.jpg",
+      "b": "train\\healthy\\IMG20220404201854_jpg.rf.e87184c86ad39bc6cbe319ab85d236cc_aug.jpg",
+      "similarity": 0.9763
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201854_jpg.rf.e87184c86ad39bc6cbe319ab85d236cc.jpg",
+      "b": "train\\healthy\\IMG20220404201902_jpg.rf.a1b933afd351d5a844e32f0faeea5d16.jpg",
+      "similarity": 0.9747
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201854_jpg.rf.e87184c86ad39bc6cbe319ab85d236cc.jpg",
+      "b": "valid\\healthy\\IMG20220404201826_jpg.rf.c8cfe871b49887fae468587b72c84aca.jpg",
+      "similarity": 0.982
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201953_jpg.rf.2f2227826a927d587f6a2a44c56e008f.jpg",
+      "b": "train\\healthy\\IMG20220404202002_jpg.rf.391557004c0ecb4f1d7c7b0db4902995.jpg",
+      "similarity": 0.985
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201953_jpg.rf.2f2227826a927d587f6a2a44c56e008f.jpg",
+      "b": "train\\healthy\\IMG20220404202005_jpg.rf.3e005a0499274d6aeb0d23b448a26fce.jpg",
+      "similarity": 0.9648
+    },
+    {
+      "a": "train\\healthy\\IMG20220404201953_jpg.rf.2f2227826a927d587f6a2a44c56e008f.jpg",
+      "b": "train\\healthy\\IMG20220404202016_jpg.rf.20554b6124d69e504563b20aa41122e7.jpg",
+      "similarity": 0.9824
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202002_jpg.rf.391557004c0ecb4f1d7c7b0db4902995.jpg",
+      "b": "train\\healthy\\IMG20220404202005_jpg.rf.3e005a0499274d6aeb0d23b448a26fce.jpg",
+      "similarity": 0.9679
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202002_jpg.rf.391557004c0ecb4f1d7c7b0db4902995.jpg",
+      "b": "train\\healthy\\IMG20220404202016_jpg.rf.20554b6124d69e504563b20aa41122e7.jpg",
+      "similarity": 0.9862
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202005_jpg.rf.3e005a0499274d6aeb0d23b448a26fce.jpg",
+      "b": "train\\healthy\\IMG20220404202016_jpg.rf.20554b6124d69e504563b20aa41122e7.jpg",
+      "similarity": 0.9685
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202156_jpg.rf.78220c4698a9ddd2054719f6d3e5fd5b.jpg",
+      "b": "valid\\healthy\\IMG20220404202208_jpg.rf.93df11c69b711e87ea72278fecd3a682.jpg",
+      "similarity": 0.9586
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202334_jpg.rf.92ca86fbfc195be25867a35eda2ff20e.jpg",
+      "b": "train\\healthy\\IMG20220404202353_jpg.rf.34b0145e116925777590da60caf23978.jpg",
+      "similarity": 0.9786
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202353_jpg.rf.34b0145e116925777590da60caf23978.jpg",
+      "b": "train\\healthy\\IMG20220404202408_jpg.rf.497f5738c44ba06b5ce045bf9915e179.jpg",
+      "similarity": 0.9565
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202353_jpg.rf.34b0145e116925777590da60caf23978.jpg",
+      "b": "train\\healthy\\IMG20220404202422_jpg.rf.fbe38550c8756080b4057d3be63e9c9a.jpg",
+      "similarity": 0.9722
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202408_jpg.rf.497f5738c44ba06b5ce045bf9915e179.jpg",
+      "b": "train\\healthy\\IMG20220404202426_jpg.rf.a72a4a47d23dd0ea08496af404aeeb2b.jpg",
+      "similarity": 0.9336
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202422_jpg.rf.fbe38550c8756080b4057d3be63e9c9a.jpg",
+      "b": "train\\healthy\\IMG20220404202426_jpg.rf.a72a4a47d23dd0ea08496af404aeeb2b.jpg",
+      "similarity": 0.9526
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202442_jpg.rf.21d90293bdefc121813d0380dd8ecdef_aug.jpg",
+      "b": "valid\\healthy\\IMG20220404202418_jpg.rf.797f31c79413adf69d8fd92b8df634ba.jpg",
+      "similarity": 0.9496
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202501_jpg.rf.38d0530b7104ab59dd68a3733b66a7fc.jpg",
+      "b": "train\\healthy\\IMG20220404202508_jpg.rf.e88be278e2b9e8d1352a77bbe1c9c59d.jpg",
+      "similarity": 0.9625
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202508_jpg.rf.e88be278e2b9e8d1352a77bbe1c9c59d.jpg",
+      "b": "train\\healthy\\IMG20220404202524_jpg.rf.d4e798cc7557ad4d074c6f3244b66c2d.jpg",
+      "similarity": 0.9614
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202524_jpg.rf.d4e798cc7557ad4d074c6f3244b66c2d.jpg",
+      "b": "train\\healthy\\IMG20220404202539_jpg.rf.2db8851301cfc4d91626278a2cc4437f.jpg",
+      "similarity": 0.9481
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202524_jpg.rf.d4e798cc7557ad4d074c6f3244b66c2d.jpg",
+      "b": "train\\healthy\\IMG20220404202544_jpg.rf.0bd83358e2a5b6c6f48ee844a5aa1c8b.jpg",
+      "similarity": 0.9719
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202534_jpg.rf.fef913415825d57a8390ba7fddd4f906.jpg",
+      "b": "train\\healthy\\IMG20220404202539_jpg.rf.2db8851301cfc4d91626278a2cc4437f.jpg",
+      "similarity": 0.961
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202534_jpg.rf.fef913415825d57a8390ba7fddd4f906.jpg",
+      "b": "train\\healthy\\IMG20220404202558_jpg.rf.341ea333ccfeeaf034cef2968472d576.jpg",
+      "similarity": 0.9376
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202539_jpg.rf.2db8851301cfc4d91626278a2cc4437f.jpg",
+      "b": "train\\healthy\\IMG20220404202605_jpg.rf.438c28df499af503da763a230cb2e9e8.jpg",
+      "similarity": 0.9771
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202544_jpg.rf.0bd83358e2a5b6c6f48ee844a5aa1c8b.jpg",
+      "b": "train\\healthy\\IMG20220404202605_jpg.rf.438c28df499af503da763a230cb2e9e8.jpg",
+      "similarity": 0.9701
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202631_jpg.rf.8a511efcde5550c29fe33f5e4a47e784.jpg",
+      "b": "train\\healthy\\IMG20220404202648_jpg.rf.c1b6725849f4df6282e76e199f980ba8.jpg",
+      "similarity": 0.9616
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202631_jpg.rf.8a511efcde5550c29fe33f5e4a47e784.jpg",
+      "b": "train\\healthy\\IMG20220404202654_jpg.rf.1f0fe99edd27b443bceb333cbffb957a.jpg",
+      "similarity": 0.948
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202729_jpg.rf.5e619c231e458c53cbfd9b40d92aa401.jpg",
+      "b": "train\\healthy\\IMG20220404202749_jpg.rf.e8ab22e14c0fd264fbc285144f6b1f97.jpg",
+      "similarity": 0.9665
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202729_jpg.rf.5e619c231e458c53cbfd9b40d92aa401.jpg",
+      "b": "train\\healthy\\IMG20220404202756_jpg.rf.bf5e1c3da2301434e0fd73349ea43d07.jpg",
+      "similarity": 0.9564
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202749_jpg.rf.e8ab22e14c0fd264fbc285144f6b1f97.jpg",
+      "b": "train\\healthy\\IMG20220404202756_jpg.rf.bf5e1c3da2301434e0fd73349ea43d07.jpg",
+      "similarity": 0.9361
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202808_jpg.rf.d2b7b92ea7e6723ab93a6999e3b3c3da.jpg",
+      "b": "train\\healthy\\IMG20220404202815_jpg.rf.924dec2fc4a10d4593ab02659b931387.jpg",
+      "similarity": 0.9345
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202808_jpg.rf.d2b7b92ea7e6723ab93a6999e3b3c3da.jpg",
+      "b": "train\\healthy\\IMG20220404202823_jpg.rf.4a99b64b016d67a186acce3f71ee7401.jpg",
+      "similarity": 0.9809
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202834_jpg.rf.04cfd2bf8fa0352b3083240ffb582d6f.jpg",
+      "b": "valid\\healthy\\IMG20220404202820_jpg.rf.7e50439ea9a002bd1c65e821dcda0865.jpg",
+      "similarity": 0.9765
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202855_jpg.rf.b0807d9b4c66c1d3dc78d39680ec1444.jpg",
+      "b": "train\\healthy\\IMG20220404202902_jpg.rf.0b40b457352f3bb9e263d0dbfadac5d5.jpg",
+      "similarity": 0.9489
+    },
+    {
+      "a": "train\\healthy\\IMG20220404202902_jpg.rf.0b40b457352f3bb9e263d0dbfadac5d5.jpg",
+      "b": "valid\\healthy\\IMG20220404202927_jpg.rf.910e8ff9904e536600c813746a1d9acb.jpg",
+      "similarity": 0.9517
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203040_jpg.rf.23350e7726521a75964043de9527a471.jpg",
+      "b": "train\\healthy\\IMG20220404203045_jpg.rf.e275197d95e26639a4408e99f8c7c682.jpg",
+      "similarity": 0.9697
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203040_jpg.rf.23350e7726521a75964043de9527a471.jpg",
+      "b": "train\\healthy\\IMG20220404203052_jpg.rf.67acf8feaf0b0b2cf97ebf4f5d08605d.jpg",
+      "similarity": 0.9698
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203040_jpg.rf.23350e7726521a75964043de9527a471.jpg",
+      "b": "train\\healthy\\IMG20220404203105_jpg.rf.e9d59262075ef7347ce5d0dd5bc638d2.jpg",
+      "similarity": 0.9663
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203040_jpg.rf.23350e7726521a75964043de9527a471.jpg",
+      "b": "valid\\healthy\\IMG20220404202927_jpg.rf.910e8ff9904e536600c813746a1d9acb.jpg",
+      "similarity": 0.995
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203040_jpg.rf.23350e7726521a75964043de9527a471.jpg",
+      "b": "valid\\healthy\\IMG20220404203048_jpg.rf.957972e634873437992d39c07a24a4cf.jpg",
+      "similarity": 0.951
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203045_jpg.rf.e275197d95e26639a4408e99f8c7c682.jpg",
+      "b": "train\\healthy\\IMG20220404203052_jpg.rf.67acf8feaf0b0b2cf97ebf4f5d08605d.jpg",
+      "similarity": 0.9905
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203045_jpg.rf.e275197d95e26639a4408e99f8c7c682.jpg",
+      "b": "train\\healthy\\IMG20220404203105_jpg.rf.e9d59262075ef7347ce5d0dd5bc638d2.jpg",
+      "similarity": 0.9877
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203045_jpg.rf.e275197d95e26639a4408e99f8c7c682.jpg",
+      "b": "train\\healthy\\IMG20220404203114_jpg.rf.99e9945400a76d0385cef1a8a1bd15d4.jpg",
+      "similarity": 0.9816
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203045_jpg.rf.e275197d95e26639a4408e99f8c7c682.jpg",
+      "b": "valid\\healthy\\IMG20220404203048_jpg.rf.957972e634873437992d39c07a24a4cf.jpg",
+      "similarity": 0.9847
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203045_jpg.rf.e275197d95e26639a4408e99f8c7c682_aug.jpg",
+      "b": "train\\healthy\\IMG20220404203052_jpg.rf.67acf8feaf0b0b2cf97ebf4f5d08605d_aug.jpg",
+      "similarity": 0.9907
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203045_jpg.rf.e275197d95e26639a4408e99f8c7c682_aug.jpg",
+      "b": "train\\healthy\\IMG20220404203114_jpg.rf.99e9945400a76d0385cef1a8a1bd15d4_aug.jpg",
+      "similarity": 0.9817
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203052_jpg.rf.67acf8feaf0b0b2cf97ebf4f5d08605d.jpg",
+      "b": "train\\healthy\\IMG20220404203105_jpg.rf.e9d59262075ef7347ce5d0dd5bc638d2.jpg",
+      "similarity": 0.9723
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203052_jpg.rf.67acf8feaf0b0b2cf97ebf4f5d08605d.jpg",
+      "b": "train\\healthy\\IMG20220404203114_jpg.rf.99e9945400a76d0385cef1a8a1bd15d4.jpg",
+      "similarity": 0.9846
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203052_jpg.rf.67acf8feaf0b0b2cf97ebf4f5d08605d.jpg",
+      "b": "valid\\healthy\\IMG20220404203048_jpg.rf.957972e634873437992d39c07a24a4cf.jpg",
+      "similarity": 0.9796
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203052_jpg.rf.67acf8feaf0b0b2cf97ebf4f5d08605d_aug.jpg",
+      "b": "train\\healthy\\IMG20220404203114_jpg.rf.99e9945400a76d0385cef1a8a1bd15d4_aug.jpg",
+      "similarity": 0.9848
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203105_jpg.rf.e9d59262075ef7347ce5d0dd5bc638d2.jpg",
+      "b": "train\\healthy\\IMG20220404203114_jpg.rf.99e9945400a76d0385cef1a8a1bd15d4.jpg",
+      "similarity": 0.9676
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203105_jpg.rf.e9d59262075ef7347ce5d0dd5bc638d2.jpg",
+      "b": "valid\\healthy\\IMG20220404203048_jpg.rf.957972e634873437992d39c07a24a4cf.jpg",
+      "similarity": 0.9781
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203108_jpg.rf.46ade485b9bfafbc9ef3eccf5a9cd053.jpg",
+      "b": "train\\healthy\\IMG20220404203114_jpg.rf.99e9945400a76d0385cef1a8a1bd15d4.jpg",
+      "similarity": 0.958
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203108_jpg.rf.46ade485b9bfafbc9ef3eccf5a9cd053.jpg",
+      "b": "train\\healthy\\IMG20220404203131_jpg.rf.6c70e3b795be677f2b0ecddbacd95f07.jpg",
+      "similarity": 0.9661
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203110_jpg.rf.7d0ab0d4ec81c2a5fd29129af47bccfc.jpg",
+      "b": "valid\\healthy\\IMG20220404203124_jpg.rf.47656f4fcbdd35fdf6075d33019d6da0.jpg",
+      "similarity": 0.9764
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203114_jpg.rf.99e9945400a76d0385cef1a8a1bd15d4.jpg",
+      "b": "train\\healthy\\IMG20220404203131_jpg.rf.6c70e3b795be677f2b0ecddbacd95f07.jpg",
+      "similarity": 0.9831
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203114_jpg.rf.99e9945400a76d0385cef1a8a1bd15d4.jpg",
+      "b": "train\\healthy\\IMG20220404203137_jpg.rf.8306af0bf698f470aaa22ed045a4dc2f.jpg",
+      "similarity": 0.9837
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203114_jpg.rf.99e9945400a76d0385cef1a8a1bd15d4.jpg",
+      "b": "valid\\healthy\\IMG20220404203048_jpg.rf.957972e634873437992d39c07a24a4cf.jpg",
+      "similarity": 0.9692
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203114_jpg.rf.99e9945400a76d0385cef1a8a1bd15d4_aug.jpg",
+      "b": "train\\healthy\\IMG20220404203137_jpg.rf.8306af0bf698f470aaa22ed045a4dc2f_aug.jpg",
+      "similarity": 0.9395
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203117_jpg.rf.ffc37fb70a3194ab7baf53a14313fd5d.jpg",
+      "b": "valid\\healthy\\IMG20220404203048_jpg.rf.957972e634873437992d39c07a24a4cf.jpg",
+      "similarity": 0.953
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203131_jpg.rf.6c70e3b795be677f2b0ecddbacd95f07.jpg",
+      "b": "train\\healthy\\IMG20220404203137_jpg.rf.8306af0bf698f470aaa22ed045a4dc2f.jpg",
+      "similarity": 0.9764
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203131_jpg.rf.6c70e3b795be677f2b0ecddbacd95f07_aug.jpg",
+      "b": "train\\healthy\\IMG20220404203137_jpg.rf.8306af0bf698f470aaa22ed045a4dc2f_aug.jpg",
+      "similarity": 0.972
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203156_jpg.rf.e500080f3f413c99c995d2ee64edf74b.jpg",
+      "b": "valid\\healthy\\IMG20220404203207_jpg.rf.6b610cd25d84ca2871718821305da202.jpg",
+      "similarity": 0.9395
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203343_jpg.rf.21385edc4c7888f2a1b2ecee6c2700b5.jpg",
+      "b": "train\\healthy\\IMG20220404203400_jpg.rf.602525509b2b28663eef43f0c166af2c.jpg",
+      "similarity": 0.9689
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203400_jpg.rf.602525509b2b28663eef43f0c166af2c.jpg",
+      "b": "train\\healthy\\IMG20220404203421_jpg.rf.b53a4b03b7d2e3b6e1b72d6e68104c04.jpg",
+      "similarity": 0.9506
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203400_jpg.rf.602525509b2b28663eef43f0c166af2c.jpg",
+      "b": "train\\healthy\\IMG20220404203425_jpg.rf.ce1ca231228389b3f44ba9f383936ad5.jpg",
+      "similarity": 0.976
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203425_jpg.rf.ce1ca231228389b3f44ba9f383936ad5.jpg",
+      "b": "train\\healthy\\IMG20220404203446_jpg.rf.8f75bcc7cbd7650cf4a425c12d3ceb44.jpg",
+      "similarity": 0.948
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203459_jpg.rf.ec34d5154d964d7029790f1c012df638.jpg",
+      "b": "train\\healthy\\IMG20220404203505_jpg.rf.46f14f7cd25511ffd75cd5fe9bf4192b.jpg",
+      "similarity": 0.9648
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203459_jpg.rf.ec34d5154d964d7029790f1c012df638.jpg",
+      "b": "valid\\healthy\\IMG20220404203515_jpg.rf.52033f320b0f38023b6fe3a9f8be579f.jpg",
+      "similarity": 0.955
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203505_jpg.rf.46f14f7cd25511ffd75cd5fe9bf4192b.jpg",
+      "b": "valid\\healthy\\IMG20220404203515_jpg.rf.52033f320b0f38023b6fe3a9f8be579f.jpg",
+      "similarity": 0.972
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203522_jpg.rf.31d2d8db57eec8896cd5b0117828d7ad.jpg",
+      "b": "train\\healthy\\IMG20220404203524_jpg.rf.f0aefa21f9dca234536a7f21250809cf.jpg",
+      "similarity": 0.9592
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203605_jpg.rf.4812bf6173fb867326008a116243b422.jpg",
+      "b": "train\\healthy\\IMG20220404203634_jpg.rf.35d465c2e30f26fc42badb4ba35b4fa4.jpg",
+      "similarity": 0.9699
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203605_jpg.rf.4812bf6173fb867326008a116243b422.jpg",
+      "b": "valid\\healthy\\IMG20220404203611_jpg.rf.f5682d8eb63b787b7c056be8fcbee9fa.jpg",
+      "similarity": 0.9501
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203834_jpg.rf.9d28d587ebf8c5a1a074321c07d7d525.jpg",
+      "b": "train\\healthy\\IMG20220404203839_jpg.rf.6488c5ab77e453b86c26b6236a6af496.jpg",
+      "similarity": 0.9352
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203839_jpg.rf.6488c5ab77e453b86c26b6236a6af496.jpg",
+      "b": "train\\healthy\\IMG20220404203858_jpg.rf.08ec7114828aeb2186757bebb286ed05.jpg",
+      "similarity": 0.9504
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203844_jpg.rf.4b3bdc2d355f9b61a5575e273c03600a.jpg",
+      "b": "valid\\healthy\\IMG20220404203815_jpg.rf.97e4f653f3cb9657d148956dd7a5ff25.jpg",
+      "similarity": 0.9399
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203849_jpg.rf.e270516b6da8fe4cea60218f65c58474.jpg",
+      "b": "train\\healthy\\IMG20220404203856_jpg.rf.3b042bee66fbdf166582681a854bc14d.jpg",
+      "similarity": 0.9598
+    },
+    {
+      "a": "train\\healthy\\IMG20220404203849_jpg.rf.e270516b6da8fe4cea60218f65c58474.jpg",
+      "b": "train\\healthy\\IMG20220404203912_jpg.rf.93d7b1b00bdbcf9f57ea9daa912a396a.jpg",
+      "similarity": 0.9377
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204349_jpg.rf.2709511873f961aca653a33430e592c5.jpg",
+      "b": "train\\healthy\\IMG20220404204404_jpg.rf.07ae14375ef03770ce9bcb475934088e.jpg",
+      "similarity": 0.9658
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204349_jpg.rf.2709511873f961aca653a33430e592c5.jpg",
+      "b": "train\\healthy\\IMG20220404204414_jpg.rf.4aad2cffdde0ba53db13df81a1f8ca27.jpg",
+      "similarity": 0.9502
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204355_jpg.rf.6736087bcb239ab08bd341ddfb9b007c.jpg",
+      "b": "train\\healthy\\IMG20220404204404_jpg.rf.07ae14375ef03770ce9bcb475934088e.jpg",
+      "similarity": 0.9502
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204355_jpg.rf.6736087bcb239ab08bd341ddfb9b007c.jpg",
+      "b": "train\\healthy\\IMG20220404204414_jpg.rf.4aad2cffdde0ba53db13df81a1f8ca27.jpg",
+      "similarity": 0.9403
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204404_jpg.rf.07ae14375ef03770ce9bcb475934088e.jpg",
+      "b": "train\\healthy\\IMG20220404204414_jpg.rf.4aad2cffdde0ba53db13df81a1f8ca27.jpg",
+      "similarity": 0.9546
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204404_jpg.rf.07ae14375ef03770ce9bcb475934088e.jpg",
+      "b": "train\\healthy\\IMG20220404204426_jpg.rf.06f276a62d7f25aca90efcd789605e4d.jpg",
+      "similarity": 0.9672
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204404_jpg.rf.07ae14375ef03770ce9bcb475934088e.jpg",
+      "b": "train\\healthy\\IMG20220404204430_jpg.rf.a09ddc33affad83c8166b3014f7296c2.jpg",
+      "similarity": 0.9717
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204414_jpg.rf.4aad2cffdde0ba53db13df81a1f8ca27.jpg",
+      "b": "train\\healthy\\IMG20220404204426_jpg.rf.06f276a62d7f25aca90efcd789605e4d.jpg",
+      "similarity": 0.9616
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204414_jpg.rf.4aad2cffdde0ba53db13df81a1f8ca27.jpg",
+      "b": "train\\healthy\\IMG20220404204430_jpg.rf.a09ddc33affad83c8166b3014f7296c2.jpg",
+      "similarity": 0.9799
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204426_jpg.rf.06f276a62d7f25aca90efcd789605e4d.jpg",
+      "b": "train\\healthy\\IMG20220404204430_jpg.rf.a09ddc33affad83c8166b3014f7296c2.jpg",
+      "similarity": 0.9779
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204426_jpg.rf.06f276a62d7f25aca90efcd789605e4d.jpg",
+      "b": "train\\healthy\\IMG20220404204448_jpg.rf.dceaf06c978b893593fb42e6903da514.jpg",
+      "similarity": 0.9864
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204430_jpg.rf.a09ddc33affad83c8166b3014f7296c2.jpg",
+      "b": "train\\healthy\\IMG20220404204448_jpg.rf.dceaf06c978b893593fb42e6903da514.jpg",
+      "similarity": 0.9759
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204448_jpg.rf.dceaf06c978b893593fb42e6903da514.jpg",
+      "b": "train\\healthy\\IMG20220404204512_jpg.rf.5b572adfa78e3d073feeb40391e48fe5.jpg",
+      "similarity": 0.9659
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204512_jpg.rf.5b572adfa78e3d073feeb40391e48fe5.jpg",
+      "b": "train\\healthy\\IMG20220404204527_jpg.rf.62555611bfb444a3703d703b39b3f31c.jpg",
+      "similarity": 0.9392
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204512_jpg.rf.5b572adfa78e3d073feeb40391e48fe5.jpg",
+      "b": "train\\healthy\\IMG20220404204539_jpg.rf.172dbb3625c410a4cd373f220a9d09e9.jpg",
+      "similarity": 0.9485
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204527_jpg.rf.62555611bfb444a3703d703b39b3f31c.jpg",
+      "b": "train\\healthy\\IMG20220404204539_jpg.rf.172dbb3625c410a4cd373f220a9d09e9.jpg",
+      "similarity": 0.9373
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204527_jpg.rf.62555611bfb444a3703d703b39b3f31c.jpg",
+      "b": "train\\healthy\\IMG20220404204551_jpg.rf.155573e9ee6786fba349d1794b21e55d.jpg",
+      "similarity": 0.9795
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204539_jpg.rf.172dbb3625c410a4cd373f220a9d09e9.jpg",
+      "b": "train\\healthy\\IMG20220404204551_jpg.rf.155573e9ee6786fba349d1794b21e55d.jpg",
+      "similarity": 0.9525
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204539_jpg.rf.172dbb3625c410a4cd373f220a9d09e9.jpg",
+      "b": "train\\healthy\\IMG20220404204558_jpg.rf.4206df7127682573597017ac3c7ca494.jpg",
+      "similarity": 0.9585
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204539_jpg.rf.172dbb3625c410a4cd373f220a9d09e9.jpg",
+      "b": "train\\healthy\\IMG20220404204606_jpg.rf.c846e60970ba87818e5669bf0b69114b.jpg",
+      "similarity": 0.9557
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204551_jpg.rf.155573e9ee6786fba349d1794b21e55d.jpg",
+      "b": "train\\healthy\\IMG20220404204558_jpg.rf.4206df7127682573597017ac3c7ca494.jpg",
+      "similarity": 0.9869
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204551_jpg.rf.155573e9ee6786fba349d1794b21e55d.jpg",
+      "b": "train\\healthy\\IMG20220404204606_jpg.rf.c846e60970ba87818e5669bf0b69114b.jpg",
+      "similarity": 0.9785
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204551_jpg.rf.155573e9ee6786fba349d1794b21e55d.jpg",
+      "b": "train\\healthy\\IMG20220404204606_jpg.rf.c846e60970ba87818e5669bf0b69114b_aug.jpg",
+      "similarity": 0.9331
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204558_jpg.rf.4206df7127682573597017ac3c7ca494.jpg",
+      "b": "train\\healthy\\IMG20220404204606_jpg.rf.c846e60970ba87818e5669bf0b69114b.jpg",
+      "similarity": 0.9893
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204606_jpg.rf.c846e60970ba87818e5669bf0b69114b.jpg",
+      "b": "train\\healthy\\IMG20220404204632_jpg.rf.805390236abff11f18cf3cc97b4dd1bd.jpg",
+      "similarity": 0.9841
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204606_jpg.rf.c846e60970ba87818e5669bf0b69114b.jpg",
+      "b": "train\\healthy\\IMG20220404204635_jpg.rf.2ecf392eeedb77fa7dc54443ec57b248.jpg",
+      "similarity": 0.9662
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204606_jpg.rf.c846e60970ba87818e5669bf0b69114b_aug.jpg",
+      "b": "train\\healthy\\IMG20220404204635_jpg.rf.2ecf392eeedb77fa7dc54443ec57b248_aug.jpg",
+      "similarity": 0.9428
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204632_jpg.rf.805390236abff11f18cf3cc97b4dd1bd.jpg",
+      "b": "train\\healthy\\IMG20220404204635_jpg.rf.2ecf392eeedb77fa7dc54443ec57b248.jpg",
+      "similarity": 0.9671
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204632_jpg.rf.805390236abff11f18cf3cc97b4dd1bd.jpg",
+      "b": "valid\\healthy\\IMG20220404204641_jpg.rf.db1d4b70f28fa4b6e3f6349b9c577288.jpg",
+      "similarity": 0.9706
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204632_jpg.rf.805390236abff11f18cf3cc97b4dd1bd.jpg",
+      "b": "valid\\healthy\\IMG20220404204644_jpg.rf.d302f41e5d6f1b77215aeb4f4dd1c308.jpg",
+      "similarity": 0.944
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204635_jpg.rf.2ecf392eeedb77fa7dc54443ec57b248.jpg",
+      "b": "valid\\healthy\\IMG20220404204641_jpg.rf.db1d4b70f28fa4b6e3f6349b9c577288.jpg",
+      "similarity": 0.9865
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204708_jpg.rf.31a018bff7b7ad565699eb9040dfc444.jpg",
+      "b": "train\\healthy\\IMG20220404204716_jpg.rf.019bfdcf667c47398b7e2b896d85175f.jpg",
+      "similarity": 0.9674
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204708_jpg.rf.31a018bff7b7ad565699eb9040dfc444.jpg",
+      "b": "train\\healthy\\IMG20220404204738_jpg.rf.7e029012aea62b20c19952f3ace1d31c.jpg",
+      "similarity": 0.9677
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204708_jpg.rf.31a018bff7b7ad565699eb9040dfc444.jpg",
+      "b": "valid\\healthy\\IMG20220404204641_jpg.rf.db1d4b70f28fa4b6e3f6349b9c577288.jpg",
+      "similarity": 0.9616
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204708_jpg.rf.31a018bff7b7ad565699eb9040dfc444.jpg",
+      "b": "valid\\healthy\\IMG20220404204644_jpg.rf.d302f41e5d6f1b77215aeb4f4dd1c308.jpg",
+      "similarity": 0.9557
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204716_jpg.rf.019bfdcf667c47398b7e2b896d85175f.jpg",
+      "b": "train\\healthy\\IMG20220404204735_jpg.rf.09d009785585db5e3a75e9e8f61e1da9.jpg",
+      "similarity": 0.9409
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204716_jpg.rf.019bfdcf667c47398b7e2b896d85175f.jpg",
+      "b": "train\\healthy\\IMG20220404204738_jpg.rf.7e029012aea62b20c19952f3ace1d31c.jpg",
+      "similarity": 0.9372
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204738_jpg.rf.7e029012aea62b20c19952f3ace1d31c.jpg",
+      "b": "train\\healthy\\IMG20220404204804_jpg.rf.05446418ed33e0351326caab425d9df8.jpg",
+      "similarity": 0.9786
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204750_jpg.rf.108c0d02286574a7d5f81f239aa4cf73.jpg",
+      "b": "valid\\healthy\\IMG20220404204818_jpg.rf.416cfe6fb9f57304a264a60a8991f8e2.jpg",
+      "similarity": 0.9593
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204804_jpg.rf.05446418ed33e0351326caab425d9df8.jpg",
+      "b": "train\\healthy\\IMG20220404204815_jpg.rf.571c945b7d513d2b3ec16c1e4647cdd6.jpg",
+      "similarity": 0.9641
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204804_jpg.rf.05446418ed33e0351326caab425d9df8_aug.jpg",
+      "b": "train\\healthy\\IMG20220404204815_jpg.rf.571c945b7d513d2b3ec16c1e4647cdd6.jpg",
+      "similarity": 0.9424
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204830_jpg.rf.762f857959ff27c62b077c6f5893ef6b.jpg",
+      "b": "train\\healthy\\IMG20220404204843_jpg.rf.7ea049aa3715d6faccd700e02861cb47.jpg",
+      "similarity": 0.9523
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204830_jpg.rf.762f857959ff27c62b077c6f5893ef6b.jpg",
+      "b": "valid\\healthy\\IMG20220404204818_jpg.rf.416cfe6fb9f57304a264a60a8991f8e2.jpg",
+      "similarity": 0.9371
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204846_jpg.rf.7c4c83162b2cb9a1657fb89920975007.jpg",
+      "b": "train\\healthy\\IMG20220404204858_jpg.rf.1bb56cce03242631237a8891c4b983a4.jpg",
+      "similarity": 0.9366
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204846_jpg.rf.7c4c83162b2cb9a1657fb89920975007.jpg",
+      "b": "train\\healthy\\IMG20220404204902_jpg.rf.75d9a46523caee3419c72cc2fa031282.jpg",
+      "similarity": 0.9553
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204849_jpg.rf.0d9be43bfb87856662b6ef16f7b5f159.jpg",
+      "b": "train\\healthy\\IMG20220404204858_jpg.rf.1bb56cce03242631237a8891c4b983a4.jpg",
+      "similarity": 0.9555
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204902_jpg.rf.75d9a46523caee3419c72cc2fa031282.jpg",
+      "b": "valid\\healthy\\IMG20220404204930_jpg.rf.8fbf69ad3f12b2c0457cb6bb079bcb3f.jpg",
+      "similarity": 0.9614
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204934_jpg.rf.f9e9a1e4fff8eacf2315a05b6f975d89.jpg",
+      "b": "train\\healthy\\IMG20220404204948_jpg.rf.a6e357b67dffce6fd118e0d2f9057004.jpg",
+      "similarity": 0.9939
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204934_jpg.rf.f9e9a1e4fff8eacf2315a05b6f975d89.jpg",
+      "b": "train\\healthy\\IMG20220404204957_jpg.rf.9934561f480af5c1944e1d5650071566.jpg",
+      "similarity": 0.9914
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204934_jpg.rf.f9e9a1e4fff8eacf2315a05b6f975d89.jpg",
+      "b": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039.jpg",
+      "similarity": 0.948
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204934_jpg.rf.f9e9a1e4fff8eacf2315a05b6f975d89.jpg",
+      "b": "train\\healthy\\IMG20220404205004_jpg.rf.4e858bc6fcd21fcccf707639f4c43984.jpg",
+      "similarity": 0.9841
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204934_jpg.rf.f9e9a1e4fff8eacf2315a05b6f975d89.jpg",
+      "b": "valid\\healthy\\IMG20220404204930_jpg.rf.8fbf69ad3f12b2c0457cb6bb079bcb3f.jpg",
+      "similarity": 0.9967
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204948_jpg.rf.a6e357b67dffce6fd118e0d2f9057004.jpg",
+      "b": "train\\healthy\\IMG20220404204957_jpg.rf.9934561f480af5c1944e1d5650071566.jpg",
+      "similarity": 0.9902
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204948_jpg.rf.a6e357b67dffce6fd118e0d2f9057004.jpg",
+      "b": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039.jpg",
+      "similarity": 0.9482
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204948_jpg.rf.a6e357b67dffce6fd118e0d2f9057004.jpg",
+      "b": "train\\healthy\\IMG20220404205004_jpg.rf.4e858bc6fcd21fcccf707639f4c43984.jpg",
+      "similarity": 0.9773
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204948_jpg.rf.a6e357b67dffce6fd118e0d2f9057004.jpg",
+      "b": "train\\healthy\\IMG20220404205008_jpg.rf.ae9951b09277d59e8471f3ed3fd88908.jpg",
+      "similarity": 0.9786
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204948_jpg.rf.a6e357b67dffce6fd118e0d2f9057004.jpg",
+      "b": "train\\healthy\\IMG20220404205011_jpg.rf.3172f0f9984e62071f51f2820f33c5ab.jpg",
+      "similarity": 0.9753
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204948_jpg.rf.a6e357b67dffce6fd118e0d2f9057004.jpg",
+      "b": "train\\healthy\\IMG20220404205014_jpg.rf.22843b81ce77267c57d6bf84ef4321c8.jpg",
+      "similarity": 0.979
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204948_jpg.rf.a6e357b67dffce6fd118e0d2f9057004.jpg",
+      "b": "valid\\healthy\\IMG20220404204930_jpg.rf.8fbf69ad3f12b2c0457cb6bb079bcb3f.jpg",
+      "similarity": 0.9951
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204957_jpg.rf.9934561f480af5c1944e1d5650071566.jpg",
+      "b": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039.jpg",
+      "similarity": 0.961
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204957_jpg.rf.9934561f480af5c1944e1d5650071566.jpg",
+      "b": "train\\healthy\\IMG20220404205004_jpg.rf.4e858bc6fcd21fcccf707639f4c43984.jpg",
+      "similarity": 0.9794
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204957_jpg.rf.9934561f480af5c1944e1d5650071566.jpg",
+      "b": "train\\healthy\\IMG20220404205008_jpg.rf.ae9951b09277d59e8471f3ed3fd88908.jpg",
+      "similarity": 0.9775
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204957_jpg.rf.9934561f480af5c1944e1d5650071566.jpg",
+      "b": "train\\healthy\\IMG20220404205011_jpg.rf.3172f0f9984e62071f51f2820f33c5ab.jpg",
+      "similarity": 0.9826
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204957_jpg.rf.9934561f480af5c1944e1d5650071566.jpg",
+      "b": "train\\healthy\\IMG20220404205014_jpg.rf.22843b81ce77267c57d6bf84ef4321c8.jpg",
+      "similarity": 0.9779
+    },
+    {
+      "a": "train\\healthy\\IMG20220404204957_jpg.rf.9934561f480af5c1944e1d5650071566.jpg",
+      "b": "valid\\healthy\\IMG20220404204930_jpg.rf.8fbf69ad3f12b2c0457cb6bb079bcb3f.jpg",
+      "similarity": 0.9948
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039.jpg",
+      "b": "train\\healthy\\IMG20220404205004_jpg.rf.4e858bc6fcd21fcccf707639f4c43984.jpg",
+      "similarity": 0.9588
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039.jpg",
+      "b": "train\\healthy\\IMG20220404205008_jpg.rf.ae9951b09277d59e8471f3ed3fd88908.jpg",
+      "similarity": 0.9528
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039.jpg",
+      "b": "train\\healthy\\IMG20220404205011_jpg.rf.3172f0f9984e62071f51f2820f33c5ab.jpg",
+      "similarity": 0.9629
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039.jpg",
+      "b": "train\\healthy\\IMG20220404205014_jpg.rf.22843b81ce77267c57d6bf84ef4321c8.jpg",
+      "similarity": 0.9516
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039.jpg",
+      "b": "valid\\healthy\\IMG20220404204942_jpg.rf.1e8f54bdee5e02a87949e65274839b61.jpg",
+      "similarity": 0.9571
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205001_jpg.rf.69de80cf6008c0683d4c113111294039_aug.jpg",
+      "b": "train\\healthy\\IMG20220404205014_jpg.rf.22843b81ce77267c57d6bf84ef4321c8_aug.jpg",
+      "similarity": 0.9419
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205004_jpg.rf.4e858bc6fcd21fcccf707639f4c43984.jpg",
+      "b": "train\\healthy\\IMG20220404205008_jpg.rf.ae9951b09277d59e8471f3ed3fd88908.jpg",
+      "similarity": 0.992
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205004_jpg.rf.4e858bc6fcd21fcccf707639f4c43984.jpg",
+      "b": "train\\healthy\\IMG20220404205011_jpg.rf.3172f0f9984e62071f51f2820f33c5ab.jpg",
+      "similarity": 0.9953
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205004_jpg.rf.4e858bc6fcd21fcccf707639f4c43984.jpg",
+      "b": "train\\healthy\\IMG20220404205014_jpg.rf.22843b81ce77267c57d6bf84ef4321c8.jpg",
+      "similarity": 0.9941
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205008_jpg.rf.ae9951b09277d59e8471f3ed3fd88908.jpg",
+      "b": "train\\healthy\\IMG20220404205011_jpg.rf.3172f0f9984e62071f51f2820f33c5ab.jpg",
+      "similarity": 0.9892
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205008_jpg.rf.ae9951b09277d59e8471f3ed3fd88908.jpg",
+      "b": "train\\healthy\\IMG20220404205014_jpg.rf.22843b81ce77267c57d6bf84ef4321c8.jpg",
+      "similarity": 0.985
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205011_jpg.rf.3172f0f9984e62071f51f2820f33c5ab.jpg",
+      "b": "train\\healthy\\IMG20220404205014_jpg.rf.22843b81ce77267c57d6bf84ef4321c8.jpg",
+      "similarity": 0.9894
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205014_jpg.rf.22843b81ce77267c57d6bf84ef4321c8.jpg",
+      "b": "train\\healthy\\IMG20220404205042_jpg.rf.c31ac6e8916a59531b7119e661bc8170.jpg",
+      "similarity": 0.9681
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205022_jpg.rf.2fec2633ef357a3b4064143d55352dfe_aug.jpg",
+      "b": "train\\healthy\\IMG20220404205028_jpg.rf.5025a5af38cc78c42986eb525e6aae96_aug.jpg",
+      "similarity": 0.9353
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205042_jpg.rf.c31ac6e8916a59531b7119e661bc8170.jpg",
+      "b": "train\\healthy\\IMG20220404205053_jpg.rf.312ad6e3c64a0158319de7d824e1d642.jpg",
+      "similarity": 0.9816
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205042_jpg.rf.c31ac6e8916a59531b7119e661bc8170.jpg",
+      "b": "train\\healthy\\IMG20220404205056_jpg.rf.ece7952ff7b67ca283a376a341d78b58.jpg",
+      "similarity": 0.9736
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205042_jpg.rf.c31ac6e8916a59531b7119e661bc8170.jpg",
+      "b": "train\\healthy\\IMG20220404205059_jpg.rf.68942d77e1aa062709130ba87789d9c6.jpg",
+      "similarity": 0.9856
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205050_jpg.rf.19441e1392c1089aab219e94c78285ca.jpg",
+      "b": "train\\healthy\\IMG20220404205051_jpg.rf.a5c2109b6e270435e9b81b5b8ee4bde5.jpg",
+      "similarity": 0.9538
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205053_jpg.rf.312ad6e3c64a0158319de7d824e1d642.jpg",
+      "b": "train\\healthy\\IMG20220404205056_jpg.rf.ece7952ff7b67ca283a376a341d78b58.jpg",
+      "similarity": 0.955
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205053_jpg.rf.312ad6e3c64a0158319de7d824e1d642.jpg",
+      "b": "train\\healthy\\IMG20220404205059_jpg.rf.68942d77e1aa062709130ba87789d9c6.jpg",
+      "similarity": 0.9691
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205056_jpg.rf.ece7952ff7b67ca283a376a341d78b58.jpg",
+      "b": "train\\healthy\\IMG20220404205059_jpg.rf.68942d77e1aa062709130ba87789d9c6.jpg",
+      "similarity": 0.9816
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205133_jpg.rf.11a23c659e8edb6f2772cb6cef59e163.jpg",
+      "b": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a.jpg",
+      "similarity": 0.9357
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205133_jpg.rf.11a23c659e8edb6f2772cb6cef59e163.jpg",
+      "b": "train\\healthy\\IMG20220404205153_jpg.rf.e3b86ae3bf96c661be23e9536789a5e5.jpg",
+      "similarity": 0.9399
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205133_jpg.rf.11a23c659e8edb6f2772cb6cef59e163.jpg",
+      "b": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5.jpg",
+      "similarity": 0.9427
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a.jpg",
+      "b": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0.jpg",
+      "similarity": 0.9775
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a.jpg",
+      "b": "train\\healthy\\IMG20220404205156_jpg.rf.0569a9e46ea73eee1624649498d25daf.jpg",
+      "similarity": 0.9765
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a.jpg",
+      "b": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5.jpg",
+      "similarity": 0.9866
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a.jpg",
+      "b": "train\\healthy\\IMG20220404205207_jpg.rf.a3d5a5fff900a402b372941bace1aa7c.jpg",
+      "similarity": 0.9522
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a.jpg",
+      "b": "valid\\healthy\\IMG20220404205158_jpg.rf.21452b44568296c4732e3a1031c2d273.jpg",
+      "similarity": 0.9866
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a_aug.jpg",
+      "b": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0_aug.jpg",
+      "similarity": 0.9567
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a_aug.jpg",
+      "b": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5_aug.jpg",
+      "similarity": 0.9702
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a_aug.jpg",
+      "b": "train\\healthy\\IMG20220404205207_jpg.rf.a3d5a5fff900a402b372941bace1aa7c_aug.jpg",
+      "similarity": 0.9605
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0.jpg",
+      "b": "train\\healthy\\IMG20220404205156_jpg.rf.0569a9e46ea73eee1624649498d25daf.jpg",
+      "similarity": 0.9844
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0.jpg",
+      "b": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5.jpg",
+      "similarity": 0.9895
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0.jpg",
+      "b": "train\\healthy\\IMG20220404205207_jpg.rf.a3d5a5fff900a402b372941bace1aa7c.jpg",
+      "similarity": 0.9591
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0.jpg",
+      "b": "valid\\healthy\\IMG20220404205158_jpg.rf.21452b44568296c4732e3a1031c2d273.jpg",
+      "similarity": 0.9899
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0_aug.jpg",
+      "b": "train\\healthy\\IMG20220404205153_jpg.rf.e3b86ae3bf96c661be23e9536789a5e5_aug.jpg",
+      "similarity": 0.9553
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0_aug.jpg",
+      "b": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5_aug.jpg",
+      "similarity": 0.9893
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0_aug.jpg",
+      "b": "train\\healthy\\IMG20220404205207_jpg.rf.a3d5a5fff900a402b372941bace1aa7c_aug.jpg",
+      "similarity": 0.9584
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205153_jpg.rf.e3b86ae3bf96c661be23e9536789a5e5.jpg",
+      "b": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5.jpg",
+      "similarity": 0.9471
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205153_jpg.rf.e3b86ae3bf96c661be23e9536789a5e5_aug.jpg",
+      "b": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5_aug.jpg",
+      "similarity": 0.9489
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205156_jpg.rf.0569a9e46ea73eee1624649498d25daf.jpg",
+      "b": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5.jpg",
+      "similarity": 0.9938
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205156_jpg.rf.0569a9e46ea73eee1624649498d25daf.jpg",
+      "b": "train\\healthy\\IMG20220404205207_jpg.rf.a3d5a5fff900a402b372941bace1aa7c.jpg",
+      "similarity": 0.9721
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205156_jpg.rf.0569a9e46ea73eee1624649498d25daf.jpg",
+      "b": "valid\\healthy\\IMG20220404205158_jpg.rf.21452b44568296c4732e3a1031c2d273.jpg",
+      "similarity": 0.9917
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5.jpg",
+      "b": "train\\healthy\\IMG20220404205207_jpg.rf.a3d5a5fff900a402b372941bace1aa7c.jpg",
+      "similarity": 0.9689
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5.jpg",
+      "b": "valid\\healthy\\IMG20220404205158_jpg.rf.21452b44568296c4732e3a1031c2d273.jpg",
+      "similarity": 0.9849
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5_aug.jpg",
+      "b": "train\\healthy\\IMG20220404205207_jpg.rf.a3d5a5fff900a402b372941bace1aa7c_aug.jpg",
+      "similarity": 0.9533
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205207_jpg.rf.a3d5a5fff900a402b372941bace1aa7c.jpg",
+      "b": "valid\\healthy\\IMG20220404205158_jpg.rf.21452b44568296c4732e3a1031c2d273.jpg",
+      "similarity": 0.9662
+    },
+    {
+      "a": "train\\healthy\\IMG20220404205225_jpg.rf.51016450cb8ea6eb2e62a54db66fcd1c.jpg",
+      "b": "train\\healthy\\IMG20220404205231_jpg.rf.a0c75753e6fd4a50d762c57294f71584.jpg",
+      "similarity": 0.963
+    },
+    {
+      "a": "valid\\damaged\\IMG20220404221047_jpg.rf.6a109c26ae8fe02eb3d083eac13e231a.jpg",
+      "b": "valid\\damaged\\IMG20220404221109_jpg.rf.9f0fdbf00910d2e34d7273c49ff137fc.jpg",
+      "similarity": 0.9316
+    },
+    {
+      "a": "valid\\damaged\\IMG20220404221102_jpg.rf.35a1e7822f08e0a9868f9b7ed4569b22.jpg",
+      "b": "valid\\damaged\\IMG20220404221109_jpg.rf.9f0fdbf00910d2e34d7273c49ff137fc.jpg",
+      "similarity": 0.9792
+    },
+    {
+      "a": "valid\\damaged\\IMG20220404224325_jpg.rf.f5eff52380eecf1e627a121f8a668781.jpg",
+      "b": "valid\\damaged\\IMG20220404224334_jpg.rf.b9d9e5c3e4406dc68d0b610466d9c083.jpg",
+      "similarity": 0.976
+    },
+    {
+      "a": "valid\\damaged\\IMG_20220404_165353_jpg.rf.e86394aeee4e1926532a3c84150206f1.jpg",
+      "b": "valid\\damaged\\IMG_20220404_165404_jpg.rf.c6ef7b2a373ae44be00cc7de18c6c51d.jpg",
+      "similarity": 0.9875
+    },
+    {
+      "a": "valid\\healthy\\IMG20220404202208_jpg.rf.93df11c69b711e87ea72278fecd3a682.jpg",
+      "b": "valid\\healthy\\IMG20220404202235_jpg.rf.aa5481061741231442e82b25ccb65ef6.jpg",
+      "similarity": 0.9717
+    },
+    {
+      "a": "valid\\healthy\\IMG20220404203124_jpg.rf.47656f4fcbdd35fdf6075d33019d6da0.jpg",
+      "b": "valid\\healthy\\IMG20220404203144_jpg.rf.40fcc410e207491c8d40c3ec032e2b5f.jpg",
+      "similarity": 0.9544
+    },
+    {
+      "a": "valid\\healthy\\IMG20220404203151_jpg.rf.ff1f673d261d64e8629406f472900ec2.jpg",
+      "b": "valid\\healthy\\IMG20220404203207_jpg.rf.6b610cd25d84ca2871718821305da202.jpg",
+      "similarity": 0.9473
+    }
+  ],
+  "groups_spanning_original_splits": 46,
+  "possible_mislabels_review": [
+    {
+      "a": "test\\healthy\\IMG20220404205142_jpg.rf.e00386e587bc1c503bee2aa1a546b63b.jpg (Healthy)",
+      "b": "train\\damaged\\IMG20220404205147_jpg.rf.d037e5a57654131b5a9a69677557b1dc.jpg (Damaged)",
+      "similarity": 0.9858
+    },
+    {
+      "a": "train\\damaged\\IMG20220404205147_jpg.rf.d037e5a57654131b5a9a69677557b1dc.jpg (Damaged)",
+      "b": "train\\healthy\\IMG20220404205137_jpg.rf.f3735919cfa7190f9d7e5354163d221a.jpg (Healthy)",
+      "similarity": 0.9715
+    },
+    {
+      "a": "train\\damaged\\IMG20220404205147_jpg.rf.d037e5a57654131b5a9a69677557b1dc.jpg (Damaged)",
+      "b": "train\\healthy\\IMG20220404205144_jpg.rf.3e115bf0b575ae35ec6c0b144a74d2b0.jpg (Healthy)",
+      "similarity": 0.9744
+    },
+    {
+      "a": "train\\damaged\\IMG20220404205147_jpg.rf.d037e5a57654131b5a9a69677557b1dc.jpg (Damaged)",
+      "b": "train\\healthy\\IMG20220404205156_jpg.rf.0569a9e46ea73eee1624649498d25daf.jpg (Healthy)",
+      "similarity": 0.9853
+    },
+    {
+      "a": "train\\damaged\\IMG20220404205147_jpg.rf.d037e5a57654131b5a9a69677557b1dc.jpg (Damaged)",
+      "b": "train\\healthy\\IMG20220404205201_jpg.rf.8b70bc0df9cfdc4bafd145c532121bc5.jpg (Healthy)",
+      "similarity": 0.9836
+    },
+    {
+      "a": "train\\damaged\\IMG20220404205147_jpg.rf.d037e5a57654131b5a9a69677557b1dc.jpg (Damaged)",
+      "b": "train\\healthy\\IMG20220404205207_jpg.rf.a3d5a5fff900a402b372941bace1aa7c.jpg (Healthy)",
+      "similarity": 0.9785
+    },
+    {
+      "a": "train\\damaged\\IMG20220404205147_jpg.rf.d037e5a57654131b5a9a69677557b1dc.jpg (Damaged)",
+      "b": "valid\\healthy\\IMG20220404205158_jpg.rf.21452b44568296c4732e3a1031c2d273.jpg (Healthy)",
+      "similarity": 0.9846
+    }
+  ],
+  "label_conflicts_excluded": [],
+  "excluded_due_to_conflict": 0,
+  "image_sizes": {
+    "416x416": 1088
+  },
+  "background_by_class": {
+    "Damaged": {
+      "blue": 463,
+      "other": 6
+    },
+    "Healthy": {
+      "blue": 401,
+      "other": 1
+    }
+  },
+  "split_strategy": "stratified group split 70/15/15 (seed 42)",
+  "include_roboflow_aug_in_train": false,
+  "split_counts": {
+    "train": {
+      "Damaged": 329,
+      "Healthy": 282
+    },
+    "val": {
+      "Damaged": 70,
+      "Healthy": 60
+    },
+    "test": {
+      "Damaged": 70,
+      "Healthy": 60
+    }
+  }
+}

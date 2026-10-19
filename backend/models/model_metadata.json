@@ -1,0 +1,40 @@
+{
+  "model_file": "calamansi_mobilenetv2.keras",
+  "architecture": "mobilenetv2",
+  "model_version": "mobilenetv2-20261015-0651",
+  "trained_at": "2026-10-15T06:51:06.313368+00:00",
+  "class_names": [
+    "Damaged",
+    "Healthy"
+  ],
+  "output": "sigmoid = P(Healthy); confidence = probability of the predicted class",
+  "threshold": 0.5,
+  "img_size": 224,
+  "preprocessing": "EXIF-rotate, RGB, bilinear resize to 224x224, raw 0-255 input (normalisation inside model)",
+  "train_counts": {
+    "Damaged": 329,
+    "Healthy": 282
+  },
+  "background_augmentation": true,
+  "validation": {
+    "loss": 0.1286,
+    "accuracy": 0.9415,
+    "auc": 0.9914
+  },
+  "candidates": [
+    {
+      "arch": "mobilenetv2",
+      "model_file": "calamansi_mobilenetv2.keras",
+      "val_loss": 0.1286,
+      "val_accuracy": 0.9415,
+      "val_auc": 0.9914,
+      "train_minutes": 39.6,
+      "epochs": 30,
+      "params": 2259265,
+      "class_weight": {
+        "0": 0.9442712392829307,
+        "1": 1.062719298245614
+      }
+    }
+  ]
+}

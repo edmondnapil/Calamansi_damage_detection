@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-10-18T11:26:54.944783+00:00",
+  "method": "end-to-end app pipeline: stage 1 (logistic regression + novelty on ImageNet MobileNetV2 features) and stage 2 (fine-tuned MobileNetV2) on the whole photo, then on leaf regions",
+  "calamansi_test_acceptance": {
+    "all_photos": 1.0,
+    "Damaged": 1.0,
+    "Healthy": 1.0,
+    "n": 130,
+    "accepted_and_correctly_classified": 0.9692,
+    "on_new_backgrounds": 0.9154,
+    "n_new_backgrounds": 260,
+    "branch_like_clusters": 0.995,
+    "n_branch_like_clusters": 200
+  },
+  "negative_test_rejection": {
+    "other_citrus_leaves": {
+      "rejected": 0.9885,
+      "n": 87,
+      "accepted_via_regions": 0
+    },
+    "citrus_fruits": {
+      "rejected": 1.0,
+      "n": 19,
+      "accepted_via_regions": 0
+    },
+    "other_citrus_leaves_plantvillage": {
+      "rejected": 1.0,
+      "n": 73,
+      "accepted_via_regions": 0
+    },
+    "other_plant_leaves": {
+      "rejected": 0.9849,
+      "n": 463,
+      "accepted_via_regions": 0
+    },
+    "flowers": {
+      "rejected": 0.9794,
+      "n": 97,
+      "accepted_via_regions": 1
+    },
+    "everyday_objects": {
+      "rejected": 0.9858,
+      "n": 141,
+      "accepted_via_regions": 0
+    },
+    "caltech_objects": {
+      "rejected": 0.977,
+      "n": 174,
+      "accepted_via_regions": 0
+    },
+    "people": {
+      "rejected": 0.9915,
+      "n": 118,
+      "accepted_via_regions": 0
+    },
+    "empty_backgrounds": {
+      "rejected": 0.9889,
+      "n": 270,
+      "accepted_via_regions": 0
+    }
+  }
+}

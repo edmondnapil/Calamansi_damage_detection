@@ -1,0 +1,34 @@
+INFO:     127.0.0.1:4203 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4262 - "GET /login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4262 - "GET /assets/index-xeH4UTvW.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4264 - "GET /assets/index-C-ZASAGr.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4264 - "GET /api/auth/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:4262 - "GET /assets/plus-jakarta-sans-latin-400-normal-BEreAzRs.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4266 - "GET /leaf.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4266 - "GET /assets/hero-calamansi-leaves-DFOHEdwQ.webp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4266 - "GET /assets/plus-jakarta-sans-latin-700-normal-ByV-LENh.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4262 - "GET /assets/plus-jakarta-sans-latin-600-normal-DZHTH_YQ.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4264 - "GET /assets/plus-jakarta-sans-latin-500-normal-QJgU3aHP.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4268 - "GET /api/model HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4268 - "GET /api/auth/csrf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4268 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4268 - "GET /app/detect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4268 - "GET /leaf.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4282 - "GET /leaf.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4268 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4268 - "GET /assets/calamansi-sprig-BpL-xml7.webp HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4268 - "POST /api/predict HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:4276 - "GET /api/reports?date_from=2026-10-13&date_to=2026-10-19 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4278 - "GET /api/stats?days=7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4282 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4277 - "GET /api/detections?page=1&page_size=5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4277 - "GET /app/detect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4277 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4282 - "GET /leaf.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4282 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4282 - "POST /api/predict HTTP/1.1" 201 Created
+INFO:     127.0.0.1:4282 - "GET /app/detect HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4282 - "GET /api/auth/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4308 - "GET /leaf.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4308 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4308 - "POST /api/predict HTTP/1.1" 422 Unprocessable Entity

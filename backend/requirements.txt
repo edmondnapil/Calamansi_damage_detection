@@ -1,0 +1,18 @@
+# Machine learning
+tensorflow==2.19.0
+protobuf>=3.20.3,<6  # newer protobuf breaks TensorFlow 2.19
+numpy>=1.26,<2.2
+pillow>=10.4
+scikit-learn>=1.5
+matplotlib>=3.9
+
+# Web API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+python-dotenv>=1.0
+supabase>=2.9
+tzdata>=2024.1
+
+# Tests (python -m pytest)
+pytest>=8.0

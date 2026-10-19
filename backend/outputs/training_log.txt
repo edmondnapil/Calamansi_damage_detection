@@ -1,0 +1,77 @@
+Loading images...
+Building leaves-on-new-backgrounds and branch-like cluster variants...
+  train: +1812 variants -> 2423 images
+  val: +229 variants -> 359 images
+2026-10-15 14:11:05.131839: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-15 14:11:06.987099: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+
+=== mobilenetv2 === train {'Damaged': 1283, 'Healthy': 1140}, class weights {0: 0.9442712392829307, 1: 1.062719298245614}
+2026-10-15 14:11:12.833567: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+C:\xampp\htdocs\Web-Based Calamansi Leaf Damage Detection Using Image Classification\backend\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/15
+76/76 - 84s - 1s/step - accuracy: 0.7004 - auc: 0.7708 - loss: 0.5733 - val_accuracy: 0.8134 - val_auc: 0.9230 - val_loss: 0.3960 - learning_rate: 0.0010
+Epoch 2/15
+76/76 - 77s - 1s/step - accuracy: 0.8122 - auc: 0.8876 - loss: 0.4257 - val_accuracy: 0.8468 - val_auc: 0.9374 - val_loss: 0.3408 - learning_rate: 0.0010
+Epoch 3/15
+76/76 - 70s - 926ms/step - accuracy: 0.8209 - auc: 0.9024 - loss: 0.3951 - val_accuracy: 0.8607 - val_auc: 0.9464 - val_loss: 0.3107 - learning_rate: 0.0010
+Epoch 4/15
+76/76 - 69s - 905ms/step - accuracy: 0.8382 - auc: 0.9165 - loss: 0.3679 - val_accuracy: 0.8830 - val_auc: 0.9530 - val_loss: 0.2871 - learning_rate: 0.0010
+Epoch 5/15
+76/76 - 67s - 887ms/step - accuracy: 0.8444 - auc: 0.9232 - loss: 0.3520 - val_accuracy: 0.8858 - val_auc: 0.9580 - val_loss: 0.2697 - learning_rate: 0.0010
+Epoch 6/15
+76/76 - 68s - 888ms/step - accuracy: 0.8353 - auc: 0.9264 - loss: 0.3461 - val_accuracy: 0.8942 - val_auc: 0.9604 - val_loss: 0.2630 - learning_rate: 0.0010
+Epoch 7/15
+76/76 - 83s - 1s/step - accuracy: 0.8539 - auc: 0.9316 - loss: 0.3346 - val_accuracy: 0.8886 - val_auc: 0.9600 - val_loss: 0.2648 - learning_rate: 0.0010
+Epoch 8/15
+76/76 - 87s - 1s/step - accuracy: 0.8518 - auc: 0.9322 - loss: 0.3301 - val_accuracy: 0.8969 - val_auc: 0.9632 - val_loss: 0.2539 - learning_rate: 0.0010
+Epoch 9/15
+76/76 - 84s - 1s/step - accuracy: 0.8601 - auc: 0.9379 - loss: 0.3185 - val_accuracy: 0.8858 - val_auc: 0.9598 - val_loss: 0.2740 - learning_rate: 0.0010
+Epoch 10/15
+76/76 - 73s - 961ms/step - accuracy: 0.8696 - auc: 0.9384 - loss: 0.3159 - val_accuracy: 0.9053 - val_auc: 0.9645 - val_loss: 0.2477 - learning_rate: 0.0010
+Epoch 11/15
+76/76 - 68s - 893ms/step - accuracy: 0.8617 - auc: 0.9381 - loss: 0.3190 - val_accuracy: 0.8969 - val_auc: 0.9624 - val_loss: 0.2521 - learning_rate: 0.0010
+Epoch 12/15
+76/76 - 65s - 861ms/step - accuracy: 0.8650 - auc: 0.9418 - loss: 0.3073 - val_accuracy: 0.9025 - val_auc: 0.9640 - val_loss: 0.2456 - learning_rate: 0.0010
+Epoch 13/15
+76/76 - 66s - 863ms/step - accuracy: 0.8634 - auc: 0.9401 - loss: 0.3115 - val_accuracy: 0.9025 - val_auc: 0.9662 - val_loss: 0.2500 - learning_rate: 0.0010
+Epoch 14/15
+76/76 - 68s - 893ms/step - accuracy: 0.8626 - auc: 0.9369 - loss: 0.3213 - val_accuracy: 0.8914 - val_auc: 0.9654 - val_loss: 0.2466 - learning_rate: 0.0010
+Epoch 15/15
+76/76 - 66s - 874ms/step - accuracy: 0.8791 - auc: 0.9506 - loss: 0.2851 - val_accuracy: 0.8886 - val_auc: 0.9652 - val_loss: 0.2427 - learning_rate: 3.0000e-04
+Epoch 1/15
+76/76 - 84s - 1s/step - accuracy: 0.8778 - auc: 0.9525 - loss: 0.2853 - val_accuracy: 0.9136 - val_auc: 0.9769 - val_loss: 0.2043 - learning_rate: 1.0000e-05
+Epoch 2/15
+76/76 - 77s - 1s/step - accuracy: 0.8919 - auc: 0.9602 - loss: 0.2546 - val_accuracy: 0.9192 - val_auc: 0.9812 - val_loss: 0.1920 - learning_rate: 1.0000e-05
+Epoch 3/15
+76/76 - 76s - 995ms/step - accuracy: 0.8952 - auc: 0.9654 - loss: 0.2378 - val_accuracy: 0.9331 - val_auc: 0.9838 - val_loss: 0.1672 - learning_rate: 1.0000e-05
+Epoch 4/15
+76/76 - 73s - 964ms/step - accuracy: 0.9026 - auc: 0.9668 - loss: 0.2328 - val_accuracy: 0.9387 - val_auc: 0.9859 - val_loss: 0.1610 - learning_rate: 1.0000e-05
+Epoch 5/15
+76/76 - 92s - 1s/step - accuracy: 0.9146 - auc: 0.9743 - loss: 0.2055 - val_accuracy: 0.9331 - val_auc: 0.9874 - val_loss: 0.1590 - learning_rate: 1.0000e-05
+Epoch 6/15
+76/76 - 80s - 1s/step - accuracy: 0.9220 - auc: 0.9793 - loss: 0.1843 - val_accuracy: 0.9443 - val_auc: 0.9885 - val_loss: 0.1406 - learning_rate: 1.0000e-05
+Epoch 7/15
+76/76 - 87s - 1s/step - accuracy: 0.9220 - auc: 0.9794 - loss: 0.1835 - val_accuracy: 0.9359 - val_auc: 0.9897 - val_loss: 0.1343 - learning_rate: 1.0000e-05
+Epoch 8/15
+76/76 - 94s - 1s/step - accuracy: 0.9298 - auc: 0.9824 - loss: 0.1705 - val_accuracy: 0.9387 - val_auc: 0.9904 - val_loss: 0.1293 - learning_rate: 1.0000e-05
+Epoch 9/15
+76/76 - 76s - 1s/step - accuracy: 0.9245 - auc: 0.9798 - loss: 0.1826 - val_accuracy: 0.9499 - val_auc: 0.9900 - val_loss: 0.1359 - learning_rate: 1.0000e-05
+Epoch 10/15
+76/76 - 74s - 976ms/step - accuracy: 0.9327 - auc: 0.9820 - loss: 0.1708 - val_accuracy: 0.9276 - val_auc: 0.9908 - val_loss: 0.1465 - learning_rate: 1.0000e-05
+Epoch 11/15
+76/76 - 78s - 1s/step - accuracy: 0.9397 - auc: 0.9866 - loss: 0.1498 - val_accuracy: 0.9415 - val_auc: 0.9914 - val_loss: 0.1286 - learning_rate: 3.0000e-06
+Epoch 12/15
+76/76 - 89s - 1s/step - accuracy: 0.9340 - auc: 0.9858 - loss: 0.1523 - val_accuracy: 0.9415 - val_auc: 0.9910 - val_loss: 0.1308 - learning_rate: 3.0000e-06
+Epoch 13/15
+76/76 - 135s - 2s/step - accuracy: 0.9410 - auc: 0.9868 - loss: 0.1459 - val_accuracy: 0.9387 - val_auc: 0.9909 - val_loss: 0.1324 - learning_rate: 3.0000e-06
+Epoch 14/15
+76/76 - 76s - 995ms/step - accuracy: 0.9451 - auc: 0.9865 - loss: 0.1482 - val_accuracy: 0.9359 - val_auc: 0.9912 - val_loss: 0.1362 - learning_rate: 9.0000e-07
+Epoch 15/15
+76/76 - 80s - 1s/step - accuracy: 0.9381 - auc: 0.9886 - loss: 0.1374 - val_accuracy: 0.9415 - val_auc: 0.9914 - val_loss: 0.1329 - learning_rate: 9.0000e-07
+mobilenetv2: val_loss 0.1286 val_acc 0.9415 val_auc 0.9914 (39.6 min)
+
+Selected mobilenetv2 (val_loss 0.1286, val_acc 0.9415).
+Wrote C:\xampp\htdocs\Web-Based Calamansi Leaf Damage Detection Using Image Classification\backend\models\model_metadata.json
+Next: python evaluate_model.py

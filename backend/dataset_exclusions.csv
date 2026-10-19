@@ -1,0 +1,151 @@
+filepath,reason,matches,similarity
+test/damaged/130-p_png.rf.dc5bf141321cda49e2f992cd4d24386a.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/130.p.png,0.9999
+test/damaged/139-p_png.rf.a3ef69bd987c00460cb322841ef5e951.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/139.p.png,0.9999
+test/damaged/92-pn_png.rf.69e1fbb83b22bd57bb5a6e5b87190634.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/92.pn.png,0.9999
+test/damaged/b--176-_png.rf.58db4b35e4bcc08417075e0ba141be28.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (176).png,0.9999
+test/damaged/b--224-_png.rf.d237fa5ba91700f6e9247aefaa863f28.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (224).png,1.0
+test/damaged/b--231-_png.rf.4c8e959341300e99d98579627c17e64e.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (231).png,0.9999
+test/damaged/b--257-_png.rf.b1d3914dba1a3ebae5a1c91d7041b956.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (257).png,0.9999
+train/damaged/110-p_png.rf.af466fff6f13ce9f3ab324cb0aa97003.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/110.p.png,1.0
+train/damaged/112-p_png.rf.f3937f25eddc17d691be9e715bd4cbde.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/112.p.png,1.0
+train/damaged/127-p_png.rf.413d376a9a87c8973be7346f675ac081.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/127.p.png,0.9999
+train/damaged/128-p_png.rf.cb8d03e4f673e1c33eb6757e4e4ef5a6.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/128.p.png,0.9999
+train/damaged/129-p_png.rf.8ba18ee30fb2e738e32ac83465777c88.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/129.p.png,0.9999
+train/damaged/131-p_png.rf.d2ef8e1a2c2eb0048caedffa13eea061.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/131.p.png,0.9999
+train/damaged/132-p_png.rf.017784a9af701825fd3a3b45ff2220cc.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/132.p.png,1.0
+train/damaged/133-p_png.rf.8d30878f15040ba47449cd771ac4f423.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/133.p.png,1.0
+train/damaged/134-p_png.rf.eef79e8118979890f83b3b527df6fd79.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/134.p.png,0.9999
+train/damaged/135-p_png.rf.8e5a6743b9ad68c2414a65c8405ce76f.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/135.p.png,0.9999
+train/damaged/136-p_png.rf.36ae4b8c2b2d39dff98b6cb168dd84bd.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/136.p.png,1.0
+train/damaged/137-p_png.rf.71bfbc6c52be86cbbdfadc84bb5b41e5.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/137.p.png,1.0
+train/damaged/143-p_png.rf.ad580611e4c9114432600fc4976ce7ed.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/143.p.png,1.0
+train/damaged/34-pn_png.rf.96aed6b790d2e854184367f5ee4086a7.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/34.pn.png,0.9999
+train/damaged/35-pn_png.rf.c2cc458c8a34963ab4c2f0a22d8c7091.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/35.pn.png,0.9999
+train/damaged/37-pn_png.rf.b7b44b547b8f63e842a1e4ba7e302e55.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/37.pn.png,0.9999
+train/damaged/39-pn_png.rf.bc1c0574603ce3a5710d995f946949bd.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/39.pn.png,1.0
+train/damaged/41-pn_png.rf.c3482a227fb1f3cf000b9d5be5adffb1.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/41.pn.png,1.0
+train/damaged/43-pn_png.rf.70dd3a18e050a0d92c879cfbd8850657.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/43.pn.png,0.9999
+train/damaged/44-pn_png.rf.201564400ad1ec51dc788ecabca61d54.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/44.pn.png,0.9999
+train/damaged/45-pn_png.rf.5e643bcfc1443cf8ee0c7c8f890fc9df.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/45.pn.png,1.0
+train/damaged/46-pn_png.rf.3a7ce87ff3f091e30a44efea440500f4.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/46.pn.png,1.0
+train/damaged/47-pn_png.rf.5209d08f8718466dd18a112474a7498f.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/47.pn.png,1.0
+train/damaged/48-pn_png.rf.97d9b7875a03a890263cdabe4b4f2d8a.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/48.pn.png,0.9999
+train/damaged/49-pn_png.rf.bc67b51b906542cba01f38bdf114624a.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/49.pn.png,1.0
+train/damaged/68-pn_png.rf.423955d3dbaf279e1eef924507fa25a1.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/68.pn.png,1.0
+train/damaged/69-pn_png.rf.4b41f44753943adfb6852fa0d0caeaa8.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/69.pn.png,0.9999
+train/damaged/82-pn_png.rf.940d3ff2a8770d0b7bc19ebb7aa4f543.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/82.pn.png,0.9999
+train/damaged/83-pn_png.rf.b26781427e541ad8ef6dc494d5e8ff71.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/83.pn.png,1.0
+train/damaged/84-pn_png.rf.0ed51fce2252349beb63ecb39056a2b5.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/84.pn.png,1.0
+train/damaged/85-pn_png.rf.9ce94cae898efda0a81bbcae3420ac5c.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/85.pn.png,0.9999
+train/damaged/87-pn_png.rf.e2aefc8c9032d5307e23867fcbde6a3a.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/87.pn.png,1.0
+train/damaged/88-pn_png.rf.673458cf38861b38ddb20716dbe694ef.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/88.pn.png,0.9999
+train/damaged/89-pn_png.rf.2bb243c30d60b48eff211a38e11063d0.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/89.pn.png,0.9999
+train/damaged/90-pn_png.rf.c75646b512de06355493830f98242db3.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/90.pn.png,1.0
+train/damaged/91-pn_png.rf.5fb66ad2f576ae6e0e101eebebb1e9e3.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/91.pn.png,1.0
+train/damaged/93-pn_png.rf.5948beb4232088b5bac4f6d1d9a94cae.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/93.pn.png,0.9999
+train/damaged/b--131-_png.rf.e1b6a76c3747ed0ce2f52cb2c1944122.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (131).png,1.0
+train/damaged/b--134-_png.rf.9ab291c23e55a7823aadb568860cd6a2.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (134).png,0.9999
+train/damaged/b--139-_png.rf.8618a25b85e1d4a98615ec1141e78967.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (139).png,0.9999
+train/damaged/b--140-_png.rf.14b7d1050c053cb274dc1aeae02a33e2.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (140).png,0.9999
+train/damaged/b--142-_png.rf.1ca3730db1bbe47e966948218ddc02d6.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (142).png,1.0
+train/damaged/b--144-_png.rf.ff8b416e6e49b808906628a33257ecab.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (144).png,0.9999
+train/damaged/b--145-_png.rf.ab06fbda1ee76bb64c0eccfcdeeb3e68.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (145).png,0.9999
+train/damaged/b--146-_png.rf.bbae8b6e790f12f17b78decdd3c7f99e.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (146).png,0.9999
+train/damaged/b--148-_png.rf.86c3dec839a5f7287fdea5bab781f1ad.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (148).png,1.0
+train/damaged/b--152-_png.rf.cd2066725434d95add95722f9c601462.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (152).png,0.9999
+train/damaged/b--155-_png.rf.d7e60052bb01c1510c0b5522de801516.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (155).png,1.0
+train/damaged/b--156-_png.rf.fca8417b8b71161960ac1ed42b4413f0.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (156).png,0.9999
+train/damaged/b--158-_png.rf.aad8b06ee8543bcae13f97f4962af940.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (158).png,0.9999
+train/damaged/b--160-_png.rf.c06891672d1dc8f103841075f9cd6ed0.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (160).png,0.9999
+train/damaged/b--162-_png.rf.d448c7bde166cc398fcd3fc23545bed9.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (162).png,0.9999
+train/damaged/b--165-_png.rf.4db4de3fe3dd30761fc5daa711ba1822.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (165).png,0.9999
+train/damaged/b--166-_png.rf.0958a1833c5fb9fced6a831ac2763e22.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (166).png,1.0
+train/damaged/b--168-_png.rf.537a61eedd6e11c1499e3679a7678371.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (168).png,0.9999
+train/damaged/b--169-_png.rf.fa89b3bb6df1aa05c12e8b1e1d23b3c7.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (169).png,1.0
+train/damaged/b--170-_png.rf.d782a49d3d0f247f6c900ab4f0ac7d79.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (170).png,0.9999
+train/damaged/b--172-_png.rf.5757b5b04f46e9e68647f555804b58bc.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (172).png,1.0
+train/damaged/b--174-_png.rf.c6f427d0a32b8d1c3c53509888c3a4f1.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (174).png,0.9999
+train/damaged/b--175-_png.rf.27a04a4bc49a7a9d5ba8512c9b8ecaa1.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (175).png,0.9999
+train/damaged/b--177-_png.rf.6c7016a9a47f92078b804875e9520e8d.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (177).png,1.0
+train/damaged/b--181-_png.rf.5ca8ed2e9ed0d6c7d4970106d4da91fa.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (181).png,1.0
+train/damaged/b--182-_png.rf.d1d2f8158c4bb8569d8f55ef03082c20.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (182).png,1.0
+train/damaged/b--183-_png.rf.e1060824ab42c497e4af09037297ac69.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (183).png,1.0
+train/damaged/b--184-_png.rf.bc5452be80ffdccf9bc2356d52baa544.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (184).png,1.0
+train/damaged/b--185-_png.rf.11421a8fb64aa61c14e085b34d285a21.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (185).png,0.9999
+train/damaged/b--186-_png.rf.10f54a5bff9dcc7f526c15a38d77377e.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (186).png,1.0
+train/damaged/b--188-_png.rf.cc237a877e78e2e6afa0b45e410e4a39.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (188).png,0.9999
+train/damaged/b--189-_png.rf.d7bfc252f05070ba2e64c8b39ac3f406.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (189).png,0.9999
+train/damaged/b--190-_png.rf.0b89b20113d188fb6a725685668a8549.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (190).png,1.0
+train/damaged/b--191-_png.rf.385e39794e7d1e3793b9784e00d6e958.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (191).png,0.9999
+train/damaged/b--192-_png.rf.2756430aced0eb609bea02feb73c7bb7.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (192).png,1.0
+train/damaged/b--193-_png.rf.bc256d0e0a25e7cc5b91a838984f8045.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (193).png,0.9999
+train/damaged/b--194-_png.rf.1944725fc1adeafd1a9ab733687d433a.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (194).png,1.0
+train/damaged/b--196-_png.rf.06d7069af665d24e8b59ee3f1069706a.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (196).png,1.0
+train/damaged/b--197-_png.rf.d60ee0b17f4ae7ca3eab6294c8a77384.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (197).png,0.9999
+train/damaged/b--202-_png.rf.a5aa31e0a30117e28892c32ca4e04885.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (202).png,0.9999
+train/damaged/b--203-_png.rf.5354db75407c5ebe1bc1b5342ce8dee1.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (203).png,0.9999
+train/damaged/b--205-_png.rf.3cc2e2ee8d2230795e1f413826ff94bd.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (205).png,0.9999
+train/damaged/b--207-_png.rf.722549cad54d1d25195f944c416886ed.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (207).png,1.0
+train/damaged/b--209-_png.rf.15995e19d209b25eda64b8ed16110190.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (209).png,0.9999
+train/damaged/b--222-_png.rf.f8b4c75ffd2dd8968c9b197cc700ac4a.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (222).png,1.0
+train/damaged/b--226-_png.rf.2374441b6637cf5044cda42943a1cb5e.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (226).png,1.0
+train/damaged/b--227-_png.rf.1fdf6212d88650843e9308d914bfe5d3.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (227).png,1.0
+train/damaged/b--229-_png.rf.2a756b7518dc852e788ff005550fe8af.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (229).png,1.0
+train/damaged/b--230-_png.rf.96d25a20a24dada9a82270f24656dd93.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (230).png,1.0
+train/damaged/b--232-_png.rf.203cfd5d90d48afb9b0a0beee41e9c19.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (232).png,0.9999
+train/damaged/b--233-_png.rf.4d668d5a3ae232704116f10547801b11.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (233).png,0.9999
+train/damaged/b--236-_png.rf.95ae9cc2c915ab903b85ff86484aa564.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (236).png,1.0
+train/damaged/b--237-_png.rf.a6fa14a85e605888430d89cd1fb48a8f.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (237).png,1.0
+train/damaged/b--238-_png.rf.f78ecb8a68420673e86d5aec9f20dcf3.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (238).png,1.0
+train/damaged/b--240-_png.rf.3a686c3eb3e4a7e0e33c326a79de1bcc.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (240).png,1.0
+train/damaged/b--241-_png.rf.c7bc34c2750049633586298c0be3bc91.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (241).png,1.0
+train/damaged/b--242-_png.rf.5babf744bc6ea6ba5d99225cbcfe87c1.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (242).png,1.0
+train/damaged/b--243-_png.rf.264a9bab18fc78ec13ad0707247dae1e.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (243).png,0.9999
+train/damaged/b--244-_png.rf.dc37393973102c3ca839df36ea3d57d3.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (244).png,1.0
+train/damaged/b--249-_png.rf.10ad9c9e9ed15b8cd4ac7628a26b8346.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (249).png,1.0
+train/damaged/b--251-_png.rf.06bad8553438691549d0dc7b0572459e.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (251).png,1.0
+train/damaged/b--252-_png.rf.08d0e4ae71ad7083aef9bf3423b1e871.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (252).png,0.9999
+train/damaged/b--258-_png.rf.a6cf21cd8a6a9648c4c95dfc4c84045a.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (258).png,1.0
+train/damaged/b--261-_png.rf.f1a6748bedb432facffd29c5c7881159.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (261).png,0.9999
+train/damaged/b--262-_png.rf.3ba67ee9ffc165346e1901f78d7e19f6.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (262).png,1.0
+train/damaged/b--263-_png.rf.4f1391567f2a77f33b470f1d3943f050.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (263).png,0.9999
+train/damaged/b--264-_png.rf.05a3f6b68c6f42fe596f7e3b5ea1a30b.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (264).png,1.0
+train/damaged/b--265-_png.rf.09bf12994cfe1c6b3acad0c9c3fe1158.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (265).png,1.0
+train/damaged/b--266-_png.rf.7015aee3e74f39857c872a0d0bdc4c9b.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (266).png,1.0
+train/damaged/b--267-_png.rf.f17a5f1b4e897b39488b8bca0af0c733.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (267).png,1.0
+train/damaged/b--268-_png.rf.bbfb4fd1430d76e913e1fc2c6472dbaa.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (268).png,0.9999
+train/damaged/b--269-_png.rf.79771b2fff972fca48594ccd9912c72a.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (269).png,1.0
+train/damaged/b--270-_png.rf.a92f3d527fad9f65fadb3a88e8ce5c5d.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (270).png,1.0
+train/damaged/b--62-_png.rf.cea00fc7d843744fc4347f7d55da1b98.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (62).png,1.0
+train/damaged/b--67-_png.rf.ca2b81820bee83b4e578a7aa70c400fd.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (67).png,0.9999
+train/damaged/b--68-_png.rf.81eb7bf4e173c2c10d280b75c9a58a6f.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (68).png,1.0
+train/damaged/b--69-_png.rf.2ac559835c7f2c4e25a0f283330a95d7.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (69).png,1.0
+train/damaged/b--74-_png.rf.a0f998d785484b46d3aa6b00f29fd74d.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (74).png,1.0
+train/damaged/b--75-_png.rf.e582f576f4f77ac5c384101736d3b36f.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (75).png,1.0
+train/damaged/b--77-_png.rf.56e98480663cb6c07a4b71e00e6c9e4c.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (77).png,1.0
+train/damaged/b--82-_png.rf.f8ac4849dee52d2808bd28ca2003e07f.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (82).png,1.0
+train/damaged/b--83-_png.rf.ebe52e4c063aa14462a722aa38565235.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (83).png,1.0
+train/damaged/b--84-_png.rf.7adbfaf82d1c72ece1e8d8f778d372a2.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (84).png,0.9999
+train/damaged/b--85-_png.rf.f17359fffdeeebf22c7d34c08d7184ae.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (85).png,0.9999
+train/damaged/b--86-_png.rf.83af8948c727c9e1962ae898493aeadb.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (86).png,0.9999
+train/damaged/b--87-_png.rf.5c49b202c2ba71e4bf52bd64aa90bd8d.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (87).png,0.9999
+train/damaged/b--89-_png.rf.583fdc49de04c2f2365ef55b67eeb4ab.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (89).png,0.9999
+train/damaged/b--91-_png.rf.fe7fe91524065009b299e27729e647b9.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (91).png,0.9999
+train/damaged/b--92-_png.rf.9dccc019aee185f8d389f4bb019dec6e.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (92).png,1.0
+train/damaged/b--93-_png.rf.6dbd8cc30d3b2ebeb955f51c58bae989.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (93).png,0.9999
+train/damaged/b--94-_png.rf.302f824d94995fff8f2193a83c4a4fe3.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (94).png,0.9999
+train/damaged/b--95-_png.rf.d90d5743e3851417202de6f5f437bb0e.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (95).png,0.9999
+train/damaged/b--98-_png.rf.56afc903585f17650ab7bbed17f6ea07.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (98).png,0.9999
+valid/damaged/111-p_png.rf.3e1e88e07c17d07cd909f63f8bc3a4d9.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/111.p.png,1.0
+valid/damaged/118-p_png.rf.8d6c264d24b137f551a157cef79d7533.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/118.p.png,0.9999
+valid/damaged/122-p_png.rf.4d4bc7202985e6bd5521918a401d180c.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/122.p.png,0.9999
+valid/damaged/63-pn_png.rf.039ae143806ed3b8dc3fc6f8793ca862.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/63.pn.png,1.0
+valid/damaged/73-pn_png.rf.21acf5413ca0d3b719e0c7a3f6a32297.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/canker/73.pn.png,0.9999
+valid/damaged/b--126-_png.rf.d009ab4993f0569bca6e6408de3d942e.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (126).png,1.0
+valid/damaged/b--163-_png.rf.89f7d9211bcf339b9ba64eac5e9bb945.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (163).png,0.9999
+valid/damaged/b--164-_png.rf.d971d3a88784443bb5894fea57a92770.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (164).png,0.9999
+valid/damaged/b--180-_png.rf.c103b87a628ed03810b35daa27a88496.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (180).png,0.9999
+valid/damaged/b--195-_png.rf.a0fbe44a4912ffda0a00f1f6cafd0a6e.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (195).png,0.9999
+valid/damaged/b--198-_png.rf.615d6bb7389b6fcfb1730953bbca5859.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (198).png,1.0
+valid/damaged/b--221-_png.rf.93049e1ae66cf8bb78dce7c20f59bed2.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (221).png,1.0
+valid/damaged/b--234-_png.rf.fc622ed5036a417e53c31201217a5755.jpg,copy of public Citrus Leaves dataset (not calamansi),Citrus/Leaves/Black spot/b (234).png,1.0

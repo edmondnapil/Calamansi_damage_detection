@@ -1,0 +1,50 @@
+Negative categories: {'other_citrus_leaves': 609, 'citrus_fruits': 150, 'other_citrus_leaves_plantvillage': 500, 'other_plant_leaves': 3000, 'flowers': 700, 'everyday_objects': 900, 'caltech_objects': 1200, 'people': 800}
+Embedding calamansi photos...
+
+Embedding negatives...
+
+Building augmented / re-backgrounded calamansi examples...
+Building empty-background negatives...
+Train positives: 5757 (611 photos + 5146 variants)
+  C=0.1: validation negatives rejected 0.8915
+  C=0.3: validation negatives rejected 0.9101
+  C=1.0: validation negatives rejected 0.9236
+  C=3.0: validation negatives rejected 0.9365
+
+Training the fine-tuned CNN gate...
+Epoch 1/4
+267/267 - 336s - 1s/step - accuracy: 0.9105 - loss: 0.1983 - val_accuracy: 0.9553 - val_loss: 0.1290 - learning_rate: 0.0010
+Epoch 2/4
+267/267 - 322s - 1s/step - accuracy: 0.9499 - loss: 0.1125 - val_accuracy: 0.9648 - val_loss: 0.0997 - learning_rate: 0.0010
+Epoch 3/4
+267/267 - 322s - 1s/step - accuracy: 0.9549 - loss: 0.0994 - val_accuracy: 0.9683 - val_loss: 0.0930 - learning_rate: 0.0010
+Epoch 4/4
+267/267 - 7682s - 29s/step - accuracy: 0.9573 - loss: 0.0944 - val_accuracy: 0.9653 - val_loss: 0.0983 - learning_rate: 0.0010
+Epoch 1/8
+267/267 - 367s - 1s/step - accuracy: 0.9624 - loss: 0.0818 - val_accuracy: 0.9683 - val_loss: 0.0875 - learning_rate: 1.0000e-05
+Epoch 2/8
+267/267 - 344s - 1s/step - accuracy: 0.9727 - loss: 0.0642 - val_accuracy: 0.9769 - val_loss: 0.0688 - learning_rate: 1.0000e-05
+Epoch 3/8
+267/267 - 345s - 1s/step - accuracy: 0.9769 - loss: 0.0541 - val_accuracy: 0.9789 - val_loss: 0.0590 - learning_rate: 1.0000e-05
+Epoch 4/8
+267/267 - 350s - 1s/step - accuracy: 0.9831 - loss: 0.0450 - val_accuracy: 0.9814 - val_loss: 0.0465 - learning_rate: 1.0000e-05
+Epoch 5/8
+267/267 - 372s - 1s/step - accuracy: 0.9811 - loss: 0.0456 - val_accuracy: 0.9859 - val_loss: 0.0414 - learning_rate: 1.0000e-05
+Epoch 6/8
+267/267 - 392s - 1s/step - accuracy: 0.9863 - loss: 0.0366 - val_accuracy: 0.9864 - val_loss: 0.0400 - learning_rate: 1.0000e-05
+Epoch 7/8
+267/267 - 380s - 1s/step - accuracy: 0.9837 - loss: 0.0403 - val_accuracy: 0.9834 - val_loss: 0.0480 - learning_rate: 1.0000e-05
+Epoch 8/8
+267/267 - 339s - 1s/step - accuracy: 0.9876 - loss: 0.0346 - val_accuracy: 0.9824 - val_loss: 0.0530 - learning_rate: 1.0000e-05
+
+Calamansi test images accepted: {'all_photos': 1.0, 'Damaged': 1.0, 'Healthy': 1.0, 'n': 130, 'on_new_backgrounds': 0.9808, 'n_new_backgrounds': 260, 'branch_like_clusters': 0.985, 'n_branch_like_clusters': 200}
+  other_citrus_leaves                rejected 0.989  (stage 1 alone 0.828, n=87)
+  citrus_fruits                      rejected 1.000  (stage 1 alone 0.895, n=19)
+  other_citrus_leaves_plantvillage   rejected 1.000  (stage 1 alone 0.986, n=73)
+  other_plant_leaves                 rejected 0.985  (stage 1 alone 0.957, n=463)
+  flowers                            rejected 0.990  (stage 1 alone 0.856, n=97)
+  everyday_objects                   rejected 0.986  (stage 1 alone 0.816, n=141)
+  caltech_objects                    rejected 0.977  (stage 1 alone 0.879, n=174)
+  people                             rejected 0.992  (stage 1 alone 0.975, n=118)
+  empty_backgrounds                  rejected 0.991  (stage 1 alone 0.974, n=230)
+Wrote C:\xampp\htdocs\Web-Based Calamansi Leaf Damage Detection Using Image Classification\backend\models\leaf_gate.npz, leaf_gate_cnn.keras, leaf_gate_extractor.keras and outputs/gate_evaluation.json

@@ -1,0 +1,5 @@
+filepath,actual,predicted,p_healthy
+train/damaged/IMG20220404205147_jpg.rf.d037e5a57654131b5a9a69677557b1dc.jpg,Damaged,Healthy,0.9804
+train/damaged/IMG20220404222941_jpg.rf.4bad8255f0a451c09a08707c00940f65.jpg,Damaged,Healthy,0.784
+train/healthy/IMG20220404205028_jpg.rf.5025a5af38cc78c42986eb525e6aae96.jpg,Healthy,Damaged,0.0075
+train/healthy/IMG20220404205225_jpg.rf.51016450cb8ea6eb2e62a54db66fcd1c.jpg,Healthy,Damaged,0.1843

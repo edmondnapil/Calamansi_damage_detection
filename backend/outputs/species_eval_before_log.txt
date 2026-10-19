@@ -1,0 +1,25 @@
+2026-10-18 23:54:31.228275: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-18 23:54:38.691555: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-18 23:54:54.917515: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+group                                   n expected  accepted  correct
+regression_lemon_upload                 1   reject    100.0%     0.0%
+calamansi_damaged                      70   accept    100.0%    97.1%
+calamansi_healthy                      60   accept    100.0%    96.7%
+calamansi_blurred                      40   accept    100.0%    87.5%
+lemon_leaves                          124   reject     25.8%    74.2%
+lemon_leaves_blurred                   40   reject     95.0%     5.0%
+orange_leaves_hlb                      66   reject     68.2%    31.8%
+orange_leaves_hlb_blurred              40   reject     95.0%     5.0%
+inat_calamansi_no_clear_leaves        160   either     12.5%   100.0%
+inat_calamansi_leaves_visible         140   accept     43.6%    43.6%
+inat_key_lime                         300   reject     34.0%    66.0%
+inat_lemon                            300   reject     23.0%    77.0%
+inat_makrut_lime                      300   reject     36.0%    64.0%
+inat_orange                           300   reject     17.7%    82.3%
+inat_persian_lime                     246   reject     25.6%    74.4%
+realworld_fruit_only                    2   reject      0.0%   100.0%
+realworld_leaf_healthy                  1   accept    100.0%   100.0%
+realworld_not_calamansi                 1   reject      0.0%   100.0%
+realworld_plant_unlabeled               2   accept    100.0%   100.0%
+Wrote C:\xampp\htdocs\Web-Based Calamansi Leaf Damage Detection Using Image Classification\backend\outputs\species_evaluation_before.csv/.json

@@ -1,0 +1,71 @@
+Negative categories: {'other_citrus_leaves': 609, 'citrus_fruits': 150, 'other_citrus_leaves_plantvillage': 500, 'other_plant_leaves': 3000, 'flowers': 700, 'everyday_objects': 900, 'caltech_objects': 1200, 'people': 800}
+2026-10-15 00:15:30.401796: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-15 00:15:32.363613: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-10-15 00:15:38.551906: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Embedding calamansi photos...
+
+Embedding negatives...
+
+Building augmented / re-backgrounded calamansi examples...
+Train positives: 4277 (611 photos + 3666 variants)
+  C=0.1: validation negatives rejected 0.9860
+  C=0.3: validation negatives rejected 0.9949
+  C=1.0: validation negatives rejected 0.9962
+  C=3.0: validation negatives rejected 0.9987
+
+Training the fine-tuned CNN gate...
+C:\xampp\htdocs\Web-Based Calamansi Leaf Damage Detection Using Image Classification\backend\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:74: UserWarning: `shuffle=True` was passed, but will be ignored since the data `x` was provided as a tf.data.Dataset. The Dataset is expected to already be shuffled (via `.shuffle(buffer_size)`).
+  self.data_adapter = data_adapters.get_data_adapter(
+Epoch 1/4
+2026-10-15 00:23:09.901546: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+C:\xampp\htdocs\Web-Based Calamansi Leaf Damage Detection Using Image Classification\backend\.venv\Lib\site-packages\keras\src\trainers\epoch_iterator.py:164: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self._interrupted_warning()
+2026-10-15 00:23:35.217801: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+133/133 - 203s - 2s/step - accuracy: 0.8942 - loss: 0.2241 - val_accuracy: 0.9642 - val_loss: 0.1090 - learning_rate: 0.0010
+Epoch 2/4
+2026-10-15 00:26:32.546586: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+133/133 - 177s - 1s/step - accuracy: 0.9626 - loss: 0.0900 - val_accuracy: 0.9744 - val_loss: 0.0769 - learning_rate: 0.0010
+Epoch 3/4
+133/133 - 177s - 1s/step - accuracy: 0.9681 - loss: 0.0730 - val_accuracy: 0.9838 - val_loss: 0.0612 - learning_rate: 0.0010
+Epoch 4/4
+2026-10-15 00:32:27.049820: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+133/133 - 177s - 1s/step - accuracy: 0.9704 - loss: 0.0616 - val_accuracy: 0.9838 - val_loss: 0.0531 - learning_rate: 0.0010
+Epoch 1/8
+133/133 - 199s - 1s/step - accuracy: 0.9804 - loss: 0.0425 - val_accuracy: 0.9770 - val_loss: 0.0596 - learning_rate: 1.0000e-05
+Epoch 2/8
+133/133 - 192s - 1s/step - accuracy: 0.9825 - loss: 0.0312 - val_accuracy: 0.9855 - val_loss: 0.0371 - learning_rate: 1.0000e-05
+Epoch 3/8
+133/133 - 191s - 1s/step - accuracy: 0.9882 - loss: 0.0223 - val_accuracy: 0.9804 - val_loss: 0.0496 - learning_rate: 1.0000e-05
+Epoch 4/8
+2026-10-15 00:45:26.137297: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+133/133 - 197s - 1s/step - accuracy: 0.9917 - loss: 0.0174 - val_accuracy: 0.9881 - val_loss: 0.0305 - learning_rate: 1.0000e-05
+Epoch 5/8
+133/133 - 192s - 1s/step - accuracy: 0.9896 - loss: 0.0228 - val_accuracy: 0.9898 - val_loss: 0.0241 - learning_rate: 1.0000e-05
+Epoch 6/8
+133/133 - 191s - 1s/step - accuracy: 0.9936 - loss: 0.0134 - val_accuracy: 0.9957 - val_loss: 0.0138 - learning_rate: 1.0000e-05
+Epoch 7/8
+133/133 - 194s - 1s/step - accuracy: 0.9910 - loss: 0.0196 - val_accuracy: 0.9906 - val_loss: 0.0266 - learning_rate: 1.0000e-05
+Epoch 8/8
+133/133 - 193s - 1s/step - accuracy: 0.9927 - loss: 0.0141 - val_accuracy: 0.9778 - val_loss: 0.0726 - learning_rate: 1.0000e-05
+{
+  "flowers": {
+    "rejected": 1.0,
+    "n": 97
+  },
+  "everyday_objects": {
+    "rejected": 0.9929,
+    "n": 141
+  },
+  "people": {
+    "rejected": 1.0,
+    "n": 118
+  }
+}
+calamansi accepted: {'all_photos': 1.0, 'Damaged': 1.0, 'Healthy': 1.0, 'n': 130, 'on_new_backgrounds': 0.9731, 'n_new_backgrounds': 260}
+Wrote C:\xampp\htdocs\Web-Based Calamansi Leaf Damage Detection Using Image Classification\backend\outputs\gate_unseen_experiment.json (experiment only; the production gate was not changed)

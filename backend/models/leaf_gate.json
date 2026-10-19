@@ -1,0 +1,25 @@
+{
+  "updated_at": "2026-10-19T05:04:48.024591+00:00",
+  "design": "an image must pass BOTH checks (predict.CombinedGate); blur and region settings in leaf_gate_config.json",
+  "species_check": {
+    "files": "leaf_gate.npz / leaf_gate_extractor.keras / leaf_gate_cnn.keras",
+    "trained": "2026-10-19 (round 1 of the species fix): earlier negatives + lemon leaves (2 Mendeley datasets) + orange leaves (Mexico HLB)",
+    "thresholds": {
+      "stage1_probability": 0.0932,
+      "stage1_novelty_distance": 0.627,
+      "stage2_cnn_probability": 0.0683
+    }
+  },
+  "general_check": {
+    "files": "leaf_gate_general.*",
+    "trained": "2026-10-18 (previous gate: citrus, plants, flowers, objects, people, blank images)",
+    "thresholds": {
+      "stage1_probability": 0.1141,
+      "stage1_novelty_distance": 0.627,
+      "stage2_cnn_probability": 0.0812
+    }
+  },
+  "min_sharpness": 8.158,
+  "min_region_fraction": 0.2,
+  "not_used": "species round 2 (models/species_round2): real iNaturalist photos in training lowered rejection of objects and other citrus; see RESULTS.md section 8"
+}

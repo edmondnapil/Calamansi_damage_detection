@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-10-14T16:59:37.594164+00:00",
+  "method": "stage 1: logistic regression + novelty distance on frozen ImageNet MobileNetV2 features; stage 2: fine-tuned MobileNetV2 binary classifier; an image is accepted only if all checks pass",
+  "regularisation_C": 3.0,
+  "thresholds": {
+    "stage1_probability": 0.4723,
+    "stage1_novelty_distance": 0.6117,
+    "stage2_cnn_probability": 0.7625
+  },
+  "calamansi_test_acceptance": {
+    "all_photos": 1.0,
+    "Damaged": 1.0,
+    "Healthy": 1.0,
+    "n": 130,
+    "on_new_backgrounds": 0.9731,
+    "n_new_backgrounds": 260
+  },
+  "negative_test_rejection": {
+    "other_citrus_leaves": {
+      "rejected": 1.0,
+      "n": 87
+    },
+    "citrus_fruits": {
+      "rejected": 1.0,
+      "n": 19
+    },
+    "other_citrus_leaves_plantvillage": {
+      "rejected": 1.0,
+      "n": 73
+    },
+    "other_plant_leaves": {
+      "rejected": 1.0,
+      "n": 463
+    },
+    "flowers": {
+      "rejected": 1.0,
+      "n": 97
+    },
+    "everyday_objects": {
+      "rejected": 0.9929,
+      "n": 141
+    },
+    "caltech_objects": {
+      "rejected": 1.0,
+      "n": 174
+    },
+    "people": {
+      "rejected": 1.0,
+      "n": 118
+    }
+  },
+  "stage1_only_test_rejection": {
+    "other_citrus_leaves": 1.0,
+    "citrus_fruits": 1.0,
+    "other_citrus_leaves_plantvillage": 1.0,
+    "other_plant_leaves": 1.0,
+    "flowers": 0.9897,
+    "everyday_objects": 0.9574,
+    "caltech_objects": 0.9885,
+    "people": 0.9661
+  },
+  "unseen_categories": [
+    "flowers",
+    "everyday_objects",
+    "people"
+  ]
+}

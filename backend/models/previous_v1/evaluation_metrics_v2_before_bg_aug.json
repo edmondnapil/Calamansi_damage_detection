@@ -1,0 +1,202 @@
+{
+  "evaluated_at": "2026-10-15T06:08:34.013030+00:00",
+  "model_version": "mobilenetv2-20261014-1508",
+  "architecture": "mobilenetv2",
+  "trained_at": "2026-10-14T15:08:34.753998+00:00",
+  "threshold": 0.5,
+  "test": {
+    "n": 130,
+    "accuracy": 0.9538,
+    "per_class": {
+      "Damaged": {
+        "precision": 0.9571,
+        "recall": 0.9571,
+        "f1": 0.9571,
+        "support": 70
+      },
+      "Healthy": {
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1": 0.95,
+        "support": 60
+      }
+    },
+    "macro_f1": 0.9536,
+    "confusion_matrix": [
+      [
+        67,
+        3
+      ],
+      [
+        3,
+        57
+      ]
+    ],
+    "roc_auc": 0.9824
+  },
+  "validation": {
+    "n": 130,
+    "accuracy": 0.9538,
+    "per_class": {
+      "Damaged": {
+        "precision": 0.9706,
+        "recall": 0.9429,
+        "f1": 0.9565,
+        "support": 70
+      },
+      "Healthy": {
+        "precision": 0.9355,
+        "recall": 0.9667,
+        "f1": 0.9508,
+        "support": 60
+      }
+    },
+    "macro_f1": 0.9537,
+    "confusion_matrix": [
+      [
+        66,
+        4
+      ],
+      [
+        2,
+        58
+      ]
+    ],
+    "roc_auc": 0.9945
+  },
+  "train_no_augmentation": {
+    "n": 611,
+    "accuracy": 0.9444,
+    "per_class": {
+      "Damaged": {
+        "precision": 0.9202,
+        "recall": 0.9818,
+        "f1": 0.95,
+        "support": 329
+      },
+      "Healthy": {
+        "precision": 0.9769,
+        "recall": 0.9007,
+        "f1": 0.9373,
+        "support": 282
+      }
+    },
+    "macro_f1": 0.9436,
+    "confusion_matrix": [
+      [
+        323,
+        6
+      ],
+      [
+        28,
+        254
+      ]
+    ],
+    "roc_auc": 0.9918
+  },
+  "overfitting_check": {
+    "train_minus_test_accuracy": -0.0094,
+    "assessment": "small gap - no strong sign of overfitting"
+  },
+  "test_by_background": {
+    "blue": {
+      "n": 130,
+      "accuracy": 0.9538,
+      "per_class": {
+        "Damaged": {
+          "precision": 0.9571,
+          "recall": 0.9571,
+          "f1": 0.9571,
+          "support": 70
+        },
+        "Healthy": {
+          "precision": 0.95,
+          "recall": 0.95,
+          "f1": 0.95,
+          "support": 60
+        }
+      },
+      "macro_f1": 0.9536,
+      "confusion_matrix": [
+        [
+          67,
+          3
+        ],
+        [
+          3,
+          57
+        ]
+      ],
+      "roc_auc": 0.9824
+    }
+  },
+  "test_leaves_on_new_backgrounds": {
+    "single_leaf_new_background": {
+      "n": 260,
+      "accuracy": 0.6923,
+      "per_class": {
+        "Damaged": {
+          "precision": 0.6415,
+          "recall": 0.9714,
+          "f1": 0.7727,
+          "support": 140
+        },
+        "Healthy": {
+          "precision": 0.9167,
+          "recall": 0.3667,
+          "f1": 0.5238,
+          "support": 120
+        }
+      },
+      "macro_f1": 0.6483,
+      "confusion_matrix": [
+        [
+          136,
+          4
+        ],
+        [
+          76,
+          44
+        ]
+      ],
+      "roc_auc": 0.8493
+    },
+    "branch_like_clusters": {
+      "n": 200,
+      "accuracy": 0.765,
+      "per_class": {
+        "Damaged": {
+          "precision": 0.6853,
+          "recall": 0.98,
+          "f1": 0.8066,
+          "support": 100
+        },
+        "Healthy": {
+          "precision": 0.9649,
+          "recall": 0.55,
+          "f1": 0.7006,
+          "support": 100
+        }
+      },
+      "macro_f1": 0.7536,
+      "confusion_matrix": [
+        [
+          98,
+          2
+        ],
+        [
+          45,
+          55
+        ]
+      ],
+      "roc_auc": 0.9161
+    }
+  },
+  "misclassified_test_count": 6,
+  "train_label_review_count": 10,
+  "notes": [
+    "Metrics are from the held-out test split, which was never used for training or model selection.",
+    "All white-background photos are Damaged; see test_by_background for blue-background-only accuracy.",
+    "The model only knows two classes. Non-leaf images will still be labelled Healthy or Damaged."
+  ]
+}

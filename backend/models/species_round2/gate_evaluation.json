@@ -1,0 +1,177 @@
+{
+  "generated_at": "2026-10-19T02:53:56.750318+00:00",
+  "method": "stage 1: logistic regression + novelty distance on frozen ImageNet MobileNetV2 features; stage 2: fine-tuned MobileNetV2 binary classifier; an image is accepted only if all checks pass",
+  "regularisation_C": 3.0,
+  "thresholds": {
+    "stage1_probability": 0.0369,
+    "stage1_novelty_distance": 0.6268,
+    "stage2_cnn_probability": 0.0068
+  },
+  "calamansi_test_acceptance": {
+    "all_photos": 1.0,
+    "Damaged": 1.0,
+    "Healthy": 1.0,
+    "n": 130,
+    "on_new_backgrounds": 0.9885,
+    "n_new_backgrounds": 260,
+    "branch_like_clusters": 0.995,
+    "n_branch_like_clusters": 200
+  },
+  "negative_test_rejection": {
+    "other_citrus_leaves": {
+      "rejected": 0.977,
+      "n": 87
+    },
+    "citrus_fruits": {
+      "rejected": 0.8947,
+      "n": 19
+    },
+    "other_citrus_leaves_plantvillage": {
+      "rejected": 1.0,
+      "n": 73
+    },
+    "other_plant_leaves": {
+      "rejected": 0.9676,
+      "n": 463
+    },
+    "flowers": {
+      "rejected": 0.8557,
+      "n": 97
+    },
+    "everyday_objects": {
+      "rejected": 0.8014,
+      "n": 141
+    },
+    "caltech_objects": {
+      "rejected": 0.8908,
+      "n": 174
+    },
+    "people": {
+      "rejected": 0.9831,
+      "n": 118
+    },
+    "lemon_leaves": {
+      "rejected": 0.9677,
+      "n": 124
+    },
+    "orange_leaves_hlb": {
+      "rejected": 0.9545,
+      "n": 66
+    },
+    "inat_other_citrus": {
+      "rejected": 0.5426,
+      "n": 505
+    },
+    "empty_backgrounds": {
+      "rejected": 0.8304,
+      "n": 230
+    },
+    "citrus_leaf_variants": {
+      "rejected": 0.5164,
+      "n": 885
+    }
+  },
+  "stage1_only_test_rejection": {
+    "other_citrus_leaves": 0.8046,
+    "citrus_fruits": 0.5263,
+    "other_citrus_leaves_plantvillage": 0.9178,
+    "other_plant_leaves": 0.8704,
+    "flowers": 0.6186,
+    "everyday_objects": 0.539,
+    "caltech_objects": 0.6149,
+    "people": 0.7797,
+    "lemon_leaves": 0.8306,
+    "orange_leaves_hlb": 0.5303,
+    "inat_other_citrus": 0.3545,
+    "empty_backgrounds": 0.7478,
+    "citrus_leaf_variants": 0.3932
+  },
+  "leave_one_dataset_out_stage1": {
+    "other_citrus_leaves": {
+      "stage1_rejected_when_unseen": 0.7931
+    },
+    "citrus_fruits": {
+      "stage1_rejected_when_unseen": 0.4211
+    },
+    "other_citrus_leaves_plantvillage": {
+      "stage1_rejected_when_unseen": 0.9178
+    },
+    "other_plant_leaves": {
+      "stage1_rejected_when_unseen": 0.5745
+    },
+    "flowers": {
+      "stage1_rejected_when_unseen": 0.4021
+    },
+    "everyday_objects": {
+      "stage1_rejected_when_unseen": 0.4752
+    },
+    "caltech_objects": {
+      "stage1_rejected_when_unseen": 0.5345
+    },
+    "people": {
+      "stage1_rejected_when_unseen": 0.161
+    },
+    "lemon_leaves": {
+      "stage1_rejected_when_unseen": 0.7581
+    },
+    "orange_leaves_hlb": {
+      "stage1_rejected_when_unseen": 0.3333
+    },
+    "inat_other_citrus": {
+      "stage1_rejected_when_unseen": 0.2218
+    },
+    "empty_backgrounds": {
+      "stage1_rejected_when_unseen": 0.1087
+    },
+    "citrus_leaf_variants": {
+      "stage1_rejected_when_unseen": 0.2689
+    }
+  },
+  "train_counts": {
+    "calamansi_photos": 611,
+    "calamansi_variants": 5146,
+    "other_citrus_leaves": 446,
+    "citrus_fruits": 109,
+    "other_citrus_leaves_plantvillage": 360,
+    "other_plant_leaves": 2082,
+    "flowers": 489,
+    "everyday_objects": 610,
+    "caltech_objects": 863,
+    "people": 556,
+    "lemon_leaves": 775,
+    "orange_leaves_hlb": 319,
+    "inat_other_citrus": 721,
+    "empty_backgrounds": 1306,
+    "citrus_leaf_variants": 2908
+  },
+  "unseen_experiment": {
+    "description": "Whole gate (both stages) retrained without these categories, then tested on their held-out images",
+    "unseen_categories": [
+      "flowers",
+      "everyday_objects",
+      "people"
+    ],
+    "rejected_when_unseen": {
+      "flowers": {
+        "rejected": 1.0,
+        "n": 97
+      },
+      "everyday_objects": {
+        "rejected": 0.9929,
+        "n": 141
+      },
+      "people": {
+        "rejected": 1.0,
+        "n": 118
+      }
+    },
+    "calamansi_test_acceptance": {
+      "all_photos": 1.0,
+      "Damaged": 1.0,
+      "Healthy": 1.0,
+      "n": 130,
+      "on_new_backgrounds": 0.9731,
+      "n_new_backgrounds": 260
+    }
+  }
+}

@@ -1,0 +1,21 @@
+group                                   n expected  accepted  correct
+regression_lemon_upload                 1   reject    100.0%     0.0%
+calamansi_damaged                      70   accept    100.0%    97.1%
+calamansi_healthy                      60   accept    100.0%    96.7%
+calamansi_blurred                      40   accept    100.0%    87.5%
+lemon_leaves                          124   reject      3.2%    96.8%
+lemon_leaves_blurred                   40   reject     77.5%    22.5%
+orange_leaves_hlb                      66   reject      7.6%    92.4%
+orange_leaves_hlb_blurred              40   reject     62.5%    37.5%
+inat_calamansi_no_clear_leaves        160   either     16.2%   100.0%
+inat_calamansi_leaves_visible         140   accept     47.9%    47.9%
+inat_key_lime                         300   reject     34.7%    65.3%
+inat_lemon                            300   reject     27.0%    73.0%
+inat_makrut_lime                      300   reject     38.0%    62.0%
+inat_orange                           300   reject     20.3%    79.7%
+inat_persian_lime                     246   reject     26.4%    73.6%
+realworld_fruit_only                    2   reject      0.0%   100.0%
+realworld_leaf_healthy                  1   accept    100.0%   100.0%
+realworld_not_calamansi                 1   reject      0.0%   100.0%
+realworld_plant_unlabeled               2   accept    100.0%   100.0%
+Wrote C:\xampp\htdocs\Web-Based Calamansi Leaf Damage Detection Using Image Classification\backend\outputs\species_evaluation_after1.csv/.json

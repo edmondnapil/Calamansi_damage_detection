@@ -1,0 +1,10 @@
+Model mobilenetv2-20261015-0651 - independent test split (130 images)
+
+              precision    recall  f1-score   support
+
+     Damaged     0.9714    0.9714    0.9714        70
+     Healthy     0.9667    0.9667    0.9667        60
+
+    accuracy                         0.9692       130
+   macro avg     0.9690    0.9690    0.9690       130
+weighted avg     0.9692    0.9692    0.9692       130

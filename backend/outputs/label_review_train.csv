@@ -1,0 +1,7 @@
+filepath,label,model_says,p_healthy
+train/damaged/IMG20220404204952_jpg.rf.9d2c3f6c932f05f4825fe716b1500d3e.jpg,Damaged,Healthy,0.9683
+valid/damaged/20220405_114211_jpg.rf.9da07465785e632a20b0025dc63f6d59.jpg,Damaged,Healthy,0.9435
+test/healthy/IMG20220404202512_jpg.rf.013672d6f905473d60b04cf1b279b4a5.jpg,Healthy,Damaged,0.1248
+train/healthy/IMG20220404221619_jpg.rf.318fecd394a770b5819cb19eb1adcbaa.jpg,Healthy,Damaged,0.0119
+train/healthy/IMG20220404223010_jpg.rf.a6a831f3aad471233933dd1e36e99a9b.jpg,Healthy,Damaged,0.0318
+valid/healthy/IMG20220404204054_jpg.rf.b803dca331addad460e9bf8047449399.jpg,Healthy,Damaged,0.1461

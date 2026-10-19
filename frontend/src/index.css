@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-mint-50 antialiased;
+}
+
+/* Visible keyboard focus everywhere (mouse clicks keep the cleaner look). */
+:focus-visible {
+  outline: 2px solid #2e9d5b;
+  outline-offset: 2px;
+}
+
+/* Stagger helper for lists/cards that fade in: style={{ "--i": index }} */
+.stagger > * {
+  animation-delay: calc(var(--i, 0) * 45ms);
+}
+
+/* Respect the operating-system "reduce motion" setting. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

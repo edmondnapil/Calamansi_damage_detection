@@ -1,0 +1,7 @@
+calamansi: 300 photos
+lemon: 300 photos
+key_lime: 300 photos
+persian_lime: 246 photos
+makrut_lime: 300 photos
+orange: 300 photos
+Wrote C:\xampp\htdocs\Web-Based Calamansi Leaf Damage Detection Using Image Classification\backend\ood_data\inat\attributions.csv (1746 photos)
